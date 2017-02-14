@@ -29,6 +29,8 @@
     （新内容发布 ／ 更方便快捷获取更新内容）
     
     更新日志：https://raw.githubusercontent.com/lhie1/Surge/master/more/New
+
+    网页广告屏蔽（推荐）：Adguard - https://appsto.re/cn/6T1A-.i
     
 
 🆙 一键生成 / 更新（Workflow）
