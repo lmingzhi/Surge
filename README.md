@@ -30,7 +30,11 @@
     
     更新日志：https://raw.githubusercontent.com/lhie1/Surge/master/more/New
 
-    网页广告屏蔽（推荐）：Adguard - https://appsto.re/cn/6T1A-.i
+🈲️ 浏览器广告
+
+    iOS：Adguard - https://appsto.re/cn/6T1A-.i
+
+    macOS：JS Blocker - https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4
     
 
 🆙 一键生成 / 更新（Workflow）
