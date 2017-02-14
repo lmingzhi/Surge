@@ -54,3 +54,9 @@ USER-AGENT,itunescloudd*,🍎 Proxy
 USER-AGENT,itunesstored*,🍎 Proxy
 
 USER-AGENT,Advert*,REJECT
+
+URL-REGEX,.*cb.js$,REJECT
+URL-REGEX,.*freshguidad.php$,REJECT
+URL-REGEX,.*sdkad.php$,REJECT
+URL-REGEX,.*wbpullad.lua$,REJECT
+URL-REGEX,.*winad.php$,REJECT
