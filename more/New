@@ -1,5 +1,14 @@
 想要更方便快捷了解更新内容？
 Telegram：https://telegram.me/surgenews
 
-# 02.14 [Surge/Shadowrocket/PHP]
-这次真的差不多了 应该没什么问题了 我休息几天 你们也休息几天（除非有重大bug将不再更新）
+# 02.15 [Surge/Shadowrocket/PHP]
+处理了很多问题，依旧还有太多问题，故移除第三方广告库
+最近苹果服务器连接困难，重新加回 AppleDNS，选择 🍎 Proxy - 🍎 Auto 可以改善一些问题
+
+屏蔽浏览器广告的问题不应该交给 Surge 或 我的规则 来处理，故推荐两款软件：
+
+iOS：Adguard - https://appsto.re/cn/6T1A-.i
+
+macOS：JS Blocker - https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4
+
+更新日志重新启动！
