@@ -32,7 +32,7 @@
 
 🈲️ 浏览器广告
 
-    全平台：Adguard - https://m.adguard.com/en/welcome.html
+    全平台：Adguard - https://adguard.com/en/welcome.html
 
     Safari for macOS：JS Blocker - https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4
     
