@@ -32,9 +32,9 @@
 
 🈲️ 浏览器广告
 
-    iOS：Adguard - https://appsto.re/cn/6T1A-.i
+    全平台：Adguard - https://m.adguard.com/en/welcome.html
 
-    macOS：JS Blocker - https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4
+    Safari for macOS：JS Blocker - https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4
     
 
 🆙 一键生成 / 更新（Workflow）
