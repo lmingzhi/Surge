@@ -1,6 +1,13 @@
 想要更方便快捷了解更新内容？
 Telegram：https://telegram.me/surgenews
 
+# 02.17 [Surge/Shadowrocket/PHP]
+彻底优化
+重新排版
+       [ #reject ]
+       [ #direct ]
+       [ #proxy ]
+
 # 02.15 [Surge/Shadowrocket/PHP]
 处理了很多问题，依旧还有太多问题，故移除第三方广告库
 最近苹果服务器连接困难，重新加回 AppleDNS，选择 🍎 Proxy - 🍎 Auto 可以改善一些问题

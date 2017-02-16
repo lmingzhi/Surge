@@ -36,26 +36,14 @@ USER-AGENT,com.google.ios.youtube*,☁️ Proxy,force-remote-dns
 
 USER-AGENT,arrowio*,🔰 Proxy
 USER-AGENT,balls*,🔰 Proxy
-USER-AGENT,DYZB*,🔰 Proxy
 USER-AGENT,hide*,🔰 Proxy
-USER-AGENT,jdjr*,🔰 Proxy
 USER-AGENT,MegaWerewolf*,🔰 Proxy
 USER-AGENT,MicroMessenger*,🔰 Proxy
 USER-AGENT,Moke*,🔰 Proxy
-USER-AGENT,NewsApp*,🔰 Proxy
 USER-AGENT,osee2unifiedRelease*,🔰 Proxy
 USER-AGENT,QQ*,🔰 Proxy
-USER-AGENT,qqlive4iphone*,🔰 Proxy
 USER-AGENT,Spark*,🔰 Proxy
 USER-AGENT,WeChat*,🔰 Proxy
-
-USER-AGENT,AppStore*,🍎 Proxy
-USER-AGENT,cloudd*,🍎 Proxy
-USER-AGENT,CloudKit*,🍎 Proxy
-USER-AGENT,itunescloudd*,🍎 Proxy
-USER-AGENT,itunesstored*,🍎 Proxy
-
-USER-AGENT,Advert*,REJECT
 
 URL-REGEX,.*cb.js$,REJECT
 URL-REGEX,.*freshguidad.php$,REJECT
