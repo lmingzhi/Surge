@@ -44,7 +44,6 @@ USER-AGENT,osee2unifiedRelease*,🔰 Proxy
 USER-AGENT,QQ*,🔰 Proxy
 USER-AGENT,Spark*,🔰 Proxy
 USER-AGENT,WeChat*,🔰 Proxy
-USER-AGENT,Youku*,🔰 Proxy
 
 URL-REGEX,.*cb.js$,REJECT
 URL-REGEX,.*freshguidad.php$,REJECT
