@@ -1,3 +1,20 @@
+// Client
+PROCESS-NAME,Dropbox,☁️ Proxy
+PROCESS-NAME,Facebook,☁️ Proxy
+PROCESS-NAME,Instagram,☁️ Proxy
+PROCESS-NAME,iTranslate,☁️ Proxy
+PROCESS-NAME,Mail,☁️ Proxy
+PROCESS-NAME,Spotify,☁️ Proxy
+PROCESS-NAME,Surge,☁️ Proxy
+PROCESS-NAME,Telegram,☁️ Proxy
+PROCESS-NAME,Tweetbot,☁️ Proxy
+
+PROCESS-NAME,AVOS,🔰 Proxy
+PROCESS-NAME,MicroMessenger,🔰 Proxy
+PROCESS-NAME,QQ,🔰 Proxy
+PROCESS-NAME,Spark,🔰 Proxy
+PROCESS-NAME,WeChat,🔰 Proxy
+
 // User-agent
 USER-AGENT,CodeHub*,☁️ Proxy
 USER-AGENT,Dropbox*,☁️ Proxy,force-remote-dns
