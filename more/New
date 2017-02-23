@@ -6,6 +6,9 @@ Telegram：https://telegram.me/surgenews
 删除已过期或已失效的规则/网址
 感谢 Telegram 群里的 @@leosam1995、@LisonFan 提供帮助
 
+Worfklow 脚本也更新了，因为 Github 被墙了，添加了国内的七牛云地址并自动检测当前 IP 是否可以访问 Github
+为什么加个检测呢？因为 Github 的更新优先级永远是最高的，还是推荐从 Github 获取最新规则！
+
 # 02.22 [Surge]
 适配最新版本
 
