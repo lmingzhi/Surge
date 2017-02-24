@@ -41,7 +41,7 @@
 
     单节点：https://workflow.is/workflows/83007c0c0e62458daaee3564d6bffab2 （不再更新）
 
-    多节点：https://workflow.is/workflows/282f3785bc89465cb3c207c80b2b6454
+    多节点：https://workflow.is/workflows/ba77bc42a9334d5390820230c0e00a9a
 
 
 🆙 自动更新（示范）
