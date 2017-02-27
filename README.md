@@ -46,9 +46,9 @@
 
 🆙 自动更新（示范）
 
-    单节点：https://async.be/Rule/Advanced/Surge.php?List=https://raw.githubusercontent.com/lhie1/CloudGate-List/master/Rule/&AutoGroup=false&Rule=false&Apple=false&IPV6=false&Group=1&SERVER1=ServerName,custom,127.0.0.1,80,rc4-md5,Password&DNS=false&AGENT=false
+    单节点：https://async.be/Rule/Advanced/Surge?List=https://raw.githubusercontent.com/lhie1/CloudGate-List/master/Rule/&AutoGroup=false&Rule=false&Apple=false&IPV6=false&Group=1&SERVER1=ServerName,custom,127.0.0.1,80,rc4-md5,Password&DNS=false&AGENT=false
 
-    多节点：https://async.be/Rule/Advanced/Surge.php?List=https://raw.githubusercontent.com/lhie1/CloudGate-List/master/Rule/&AutoGroup=false&Rule=false&Apple=false&IPV6=false&Group=2&SERVER1=ServerName,custom,127.0.0.1,80,rc4-md5,Password&SERVER2=ServerName,custom,127.0.0.1,80,rc4-md5,Password&DNS=false&AGENT=false
+    多节点：https://async.be/Rule/Advanced/Surge?List=https://raw.githubusercontent.com/lhie1/CloudGate-List/master/Rule/&AutoGroup=false&Rule=false&Apple=false&IPV6=false&Group=2&SERVER1=ServerName,custom,127.0.0.1,80,rc4-md5,Password&SERVER2=ServerName,custom,127.0.0.1,80,rc4-md5,Password&DNS=false&AGENT=false
     
     参数详解：https://manual.async.be/AdvancedRule.html
 
