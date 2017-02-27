@@ -4,6 +4,7 @@ Telegram：https://telegram.me/surgenews
 # 02.27 [Surge/Shadowrocket/PHP]
 修复 Shadowrocket 连接 Apple 困难的问题
 增强对部分广告的屏蔽
+增强对运营商广告的屏蔽
 感谢 Telegram 群里的 @suisr9255 提供 Workflow 帮助
 
 # 02.24 [Surge/Shadowrocket/PHP]
