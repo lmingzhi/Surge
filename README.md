@@ -39,9 +39,9 @@
 
 🆙 一键生成 / 更新（Workflow）
 
-    单节点：https://workflow.is/workflows/83007c0c0e62458daaee3564d6bffab2 （不再更新）
+    https://workflow.is/workflows/fdd0ff2a434041f9ae8ede8ebc5cf022
 
-    多节点：https://workflow.is/workflows/ba77bc42a9334d5390820230c0e00a9a
+    单节点版（特）：https://workflow.is/workflows/83007c0c0e62458daaee3564d6bffab2 （不再更新）
 
 
 🆙 自动更新（示范）
