@@ -1,6 +1,12 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 03.05 [Surge/Shadowrocket/PHP]
+增加对 Twitter、Tumblr、YouTube 部分广告的屏蔽   via.@leosam1995
+去除一部分重复规则（这两天没休息好，眼睛肿了，不仔细找了，过几天再说）
+去除京东、淘宝自动跳转手机页面
+暂时过滤对 apple 进行流量管控（🍎 Proxy 大部分暂时失效）
+
 # 03.04 [Surge/Shadowrocket/PHP]
 广告排版优化
 增强对视频广告的过滤
