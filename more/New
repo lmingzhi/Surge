@@ -1,6 +1,10 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 03.08 [Surge/Shadowrocket/PHP]
+增加对 闲鱼 启动广告的拦截
+去除多余/重复规则
+
 # 03.05 [Surge/Shadowrocket/PHP]
 增加对 Twitter、Tumblr、YouTube 部分广告的屏蔽   via.@leosam1995
 去除一部分重复规则（这两天没休息好，眼睛肿了，不仔细找了，过几天再说）
