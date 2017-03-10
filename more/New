@@ -1,6 +1,11 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 03.10 [Surge/Shadowrocket/PHP]
+修复 百度贴吧 网络问题
+修复 什么值得买 淘宝跳转出错
+一些优化及调整
+
 # 03.08 [Surge/Shadowrocket]
 增加对 闲鱼 启动广告的拦截
 去除多余/重复规则
