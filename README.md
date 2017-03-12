@@ -39,7 +39,7 @@
 
 🆙 一键生成 / 更新（Workflow）
 
-    https://workflow.is/workflows/fdd0ff2a434041f9ae8ede8ebc5cf022
+    https://workflow.is/workflows/8e57208a2ef3443292af96cbfe73fd04
 
     单节点版（特）：https://workflow.is/workflows/83007c0c0e62458daaee3564d6bffab2 （不再更新）
 
