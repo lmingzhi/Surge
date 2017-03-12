@@ -1,6 +1,26 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 03.12 [Surge/Shadowrocket/PHP]
+大量增加对 腾讯、百度、新浪、搜狐、搜狗、360 等广告屏蔽
+去除多余/重复规则
+增加一段测试性规则，在使用时出现任何问题可以自行删除或联系我
+
+“
+// Test
+^https?://*/adstatic/* _reject
+^https?://*/AdCenter/* _reject
+^https?://*/VediosAD/* _reject
+^https?://*/ad/* _reject
+^https?://*/adlink/* _reject
+^https?://*/adsense/* _reject
+^https?://*/adstat/* _reject
+^https?://*/advert/* _reject
+^https?://*/cpv/* _reject
+^https?://*/guanggao/* _reject
+^https?://*.pstatp.com/origin/* _reject
+“
+
 # 03.10 [Surge/Shadowrocket/PHP]
 修复 百度贴吧 网络问题
 修复 什么值得买 淘宝跳转出错
