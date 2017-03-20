@@ -206,27 +206,21 @@ Telegram | https://telegram.me/lhie1x
     itsliveradio.apple.com = 202.76.239.11
 
     // China Unicom （中国联通）
-    # API-1-ChinaNetCenter [ChinaUnicom] (Avg RTT: 71.482ms)
-    se.itunes.apple.com = 123.138.61.6
-    su.itunes.apple.com = 123.138.61.6
-    upp.itunes.apple.com = 123.138.61.6
-    play.itunes.apple.com = 123.138.61.6
-    client-api.itunes.apple.com = 123.138.61.6
-    # API-2-ChinaCache [ChinaUnicom] (Avg RTT: 62.808ms)
-    itunes.apple.com = 60.6.197.202
-    init.itunes.apple.com = 60.6.197.202
-    # API-HK-Akamai-1 [HongKong0] (Avg RTT: 109.218ms)
-    search.itunes.apple.com = 23.42.189.88
-    # API-HK-Akamai-2-AMRadio [HongKong1] (Avg RTT: 192.861ms)
-    radio.itunes.apple.com = 23.13.185.169
-    radio-activity.itunes.apple.com = 23.13.185.169
-    radio-services.itunes.apple.com = 23.13.185.169
-    # Apple Music Streaming [ChinaUnicom-ChinaNetCenter] (Avg RTT: 27.633ms)
-    aod.itunes.apple.com = 113.207.6.58
-    mvod.itunes.apple.com = 113.207.6.58
-    streamingaudio.itunes.apple.com = 113.207.6.58
-    # Beats 1 Radio (Not Available in Mainland China) [Malaysia] (Avg RTT: 90.211ms)
-    itsliveradio.apple.com = 202.76.239.11
+    apps.itunes.apple.com = 60.213.22.72
+    beta.itunes.apple.com = 23.42.189.88
+    client-api.itunes.apple.com = 60.213.22.72
+    init.itunes.apple.com = 111.161.121.26
+    itunes.apple.com = 111.161.121.26
+    itunesconnect.apple.com = 111.161.121.26
+    play.itunes.apple.com = 60.213.22.72
+    radio.itunes.apple.com = 104.115.242.174
+    radio-activity.itunes.apple.com = 104.115.242.174
+    radio-services.itunes.apple.com = 104.115.242.174
+    s.mzstatic.com = 111.161.121.26
+    se.itunes.apple.com = 60.213.22.72
+    search.itunes.apple.com = 111.161.121.26
+    su.itunes.apple.com = 60.213.22.72
+    upp.itunes.apple.com = 60.213.22.72
 
     // CMCC （中国移动）
     apps.itunes.apple.com = 111.62.245.9
