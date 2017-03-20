@@ -132,7 +132,7 @@ Telegram | https://telegram.me/lhie1x
 
 #### 🚀 SSR 混淆模式 https://github.com/breakwa11/shadowsocks-rss/blob/master/ssr.md
 
-    理论上开启混淆模式可以更好的躲开墙的干扰以及非正常流量的限速，那就应当会获得更好的速度和稳定性。
+    理论上开启混淆模式的时候可以利用混淆做到乱序大小的发送和接收，至少可以在某种程度上可以避开GFW的探测，那就应当会获得更好的速度、稳定性以及安全性。
 
 
 
@@ -228,16 +228,22 @@ Telegram | https://telegram.me/lhie1x
     # Beats 1 Radio (Not Available in Mainland China) [Malaysia] (Avg RTT: 90.211ms)
     itsliveradio.apple.com = 202.76.239.11
 
-    // Auto （三网通用）
-    aod.itunes.apple.com = hkg.aapldns.xyz
-    aodp.itunes.apple.com = hkg.aapldns.xyz
-    appldnld.apple.com = hkg.aapldns.xyz
-    iosapps.itunes.apple.com = hkg.aapldns.xyz
-    itsliveradio.apple.com = 42.99.128.168
-    osxapps.itunes.apple.com = hkg.aapldns.xyz
-    streamingaudio.itunes.apple.com = hkg.aapldns.xyz
-    swcdn.apple.com = hkg.aapldns.xyz
-    // aapldns.xyz 由 AppleDNS Team 托管，以 CNAME 的方式解析 Apple 服务器 IP
+    // CMCC （中国移动）
+    apps.itunes.apple.com = 111.62.245.9
+    beta.itunes.apple.com = 23.198.133.66
+    client-api.itunes.apple.com = 111.62.245.9
+    init.itunes.apple.com = 183.222.99.115
+    itunes.apple.com = 183.222.99.115
+    itunesconnect.apple.com = 183.222.99.115
+    play.itunes.apple.com = 111.62.245.9
+    radio.itunes.apple.com = 23.50.28.36
+    radio-activity.itunes.apple.com = 23.50.28.36
+    radio-services.itunes.apple.com = 23.50.28.36
+    s.mzstatic.com = 183.222.99.115
+    se.itunes.apple.com = 111.62.245.9
+    search.itunes.apple.com = 183.222.99.115
+    su.itunes.apple.com = 111.62.245.9
+    upp.itunes.apple.com = 111.62.245.9
 
 
 # License
