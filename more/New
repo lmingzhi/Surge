@@ -1,6 +1,12 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 04.17 [Surge/Shadowrocket/PHP]
+修复对 视频 的误拦截
+删除 不常用视频 拦截广告
+完善 直连/代理 规则
+完善 优酷 广告/会员视频问题
+
 # 04.13 [Surge/Shadowrocket/PHP]
 更新对视频广告拦截的规则
 删减一部分影响体样的规则
