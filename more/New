@@ -1,6 +1,16 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 04.20 [Surge/Shadowrocket/PHP]
+加强对广告的拦截
+删除一些误杀的规则
+一些优化及调整
+
+* 04.20 [Workflow]
+去掉了国内源地址
+自动生成 TOKEN
+开启 MITM 后会提示是否开启优酷：屏蔽广告+破解会员视频 功能
+
 # 04.17 [Surge/Shadowrocket/PHP]
 修复对 广告 的误拦截
 删除 不常用视频 拦截广告
@@ -9,7 +19,7 @@ Telegram：https://t.me/rulenews
 
 # 04.13 [Surge/Shadowrocket/PHP]
 更新对视频广告拦截的规则
-删减一部分影响体样的规则
+删减一部分影响体验的规则
 
 Ps：最近太忙了 很久没更新也没看群里消息 向大家道个歉阿 有任何问题私聊我就行了
 
