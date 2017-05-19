@@ -80,8 +80,7 @@
 *** | Raw |
 ---------|:---------:
 技术支持 | https://twitter.com/OAuth4
-LHIE1| [翻墙服务](https://item.taobao.com/item.htm?id=548892566588)
-ss.lhie1| [翻墙服务](https://ss.lhie1.com)
+LHIE1| [翻墙服务](https://兔兔联盟.com)
 新浪微博 | [ @lhie1](http://www.weibo.com/1748625493)
 Telegram | https://telegram.me/lhie1x
 
@@ -89,7 +88,7 @@ Telegram | https://telegram.me/lhie1x
 
 # Q&A
 
-### ☁️ Proxy & 🔰 Proxy
+### ☁️ Proxy & 🔰 Proxy & 🍎 Proxy
 
     ☁️ Proxy ： 直连 / 代理服务器(选择 [🌍 Direct] 为 直连，选择 [其他] 则通过 代理服务器 访问)
 
