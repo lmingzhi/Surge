@@ -80,7 +80,7 @@
 *** | Raw |
 ---------|:---------:
 技术支持 | https://twitter.com/OAuth4
-翻墙服务| [兔兔联盟](https://兔兔联盟.com)
+翻墙服务| [爱兔联盟](https://爱兔联盟.com)
 新浪微博 | [ @lhie1](http://www.weibo.com/1748625493)
 Telegram | https://telegram.me/lhie1x
 
