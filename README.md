@@ -56,22 +56,9 @@
     更新 Rule OTA 后首次运行时 “更改 Token 节点” 请选择 “是”，并选择之前选择过的节点。
     无论何时，若确实想更改节点，请运行两次并每次都选择“是”。
 
-    Surge User Data：https://workflow.is/workflows/d8116c9cc29548088f35c5e6ef0a77fb
+    Surge User Data：https://workflow.is/workflows/1c677e535e364348be2835bf32b73fea
 
-    Rule OTA：https://workflow.is/workflows/bdc484fa5af34918abbe90546bf12e89
-
-🆙 Shadowrocket for Workflow  
-
-    火箭TF版（App Store版本请绕过）具体使用步骤:
-
-    1、火箭设置-高级-证书:生成并信任证书。
-    2、开启火箭，并使用节点A（节点A只是举例）。
-    3、WF流程填入节点A的备注名。
-    4、使用WF流程生成的配置，直接导入火箭。
-    5、节点A+启用刚刚WF生成的配置即可。
-    火箭使用简单说明:https://paste.ubuntu.com/24537829/
-
-    Rocket Rule With Token：https://workflow.is/workflows/3d2f08e152be428f9c28872d183e1fbd
+    Rule OTA：https://workflow.is/workflows/4c881e0eb1114c479eb85247324f29a3
 
 
 
