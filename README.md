@@ -84,6 +84,7 @@
 鸣谢 | Telegram @suisr9255
 新浪微博 | [ @lhie1](http://www.weibo.com/1748625493)
 Telegram 讨论组| https://telegram.me/lhie1x
+Telegram 通知频道| https://telegram.me/surgenews
 购买翻墙服务| [爱兔联盟](https://爱兔联盟.com)
 
 
