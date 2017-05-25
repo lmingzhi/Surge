@@ -77,18 +77,18 @@
 
 # line
 
-关于作者 | Raw |
+About | Raw |
 ---------|:---------:
 新浪微博 | [@lhie1](http://www.weibo.com/1748625493)
 Telegram 讨论组| https://telegram.me/lhie1x
 Telegram 通知频道| https://telegram.me/surgenews
 购买翻墙服务| [爱兔联盟（通往新宇宙的船票）](https://爱兔联盟.com)
 
-提供帮助 | Raw |
+Tutor | Raw |
 ---------|:---------:
-鸣谢 | [@OAuth4](https://twitter.com/OAuth4)
-鸣谢 | [@Neurogram](http://www.taguage.com/user?id=181456)
-鸣谢 | @suisr9255
+特别鸣谢 | [@OAuth4](https://twitter.com/OAuth4)
+特别鸣谢 | [@Neurogram](http://www.taguage.com/user?id=181456)
+特别鸣谢 | @suisr9255
 
 
 
