@@ -39,29 +39,6 @@
 
 🆙 Surge for Workflow
 
-    请阅读完通知之后使用
-
-    1. Workflow 正式将用户个人配置与规则分开。请务必 Get （Surge User Data + Rule OTA），首次运行时，请运行 Surge User Data，以生成个人用户配置，然后会自动执行后续流程生成规则，此后若仅需更新规则则只运行 Rule OTA. 
-
-    2. 如果仅需要更新规则，运行 Rule OTA 即可；如果需要更新个人配置和规则，请运行Surge User Data.
-
-    3. 如果无特殊情况，不会频繁更新 Surge User Data.wflow，只会更新Rule OTA.wflow，因此无需再重复填写个人配置信息。
-
-    4. 关于 Token，目前多个地方（包括优酷）去广告等需要使用 Token 进行认证，避免服务器解析流量超标，请谅解。使用过程中需要对生成 Token 的 IP 地址进行认证，所以需要使用节点地址，避免直连情况下的 IP 地址的频繁变换导致认证失败，请注意在运行 workflow 的时候选择要使用的节点。
-
-    5. 关于优酷，目前去广告和破解 VIP 视频功能为 Eval 开发的测试功能，可能会因为加密改变或自费的服务器流量超标等原因取消，不保证今后的可用性，可在 Workflow 中选择是否开启。
-
-    注：首次运行 Surge User Data 可能会因为之前使用的 Surge 配置文件里生成 Token 的节点选择并不匹配，所以可能需要在首次运行生成配置文件导入 Surge 并开启使用后，额外需要运行一次 Rule OTA 重新生成规则，以确保 Token 的正确性，此后无须再如此重复；若之后有需要更改生成 Token 使用的节点，则需运行两次 Rule OTA，即运行第一次后生成配置文件并使用，然后再运行一次重新生成使用（也可以先手动在 Surge 中修改使用的节点，之后则仅需要运行一次Rule OTA）
-
-    更新 Rule OTA 后首次运行时 “更改 Token 节点” 请选择 “是”，并选择之前选择过的节点。
-    无论何时，若确实想更改节点，请运行两次并每次都选择“是”。
-
-
-    Surge User Data：https://workflow.is/workflows/1c677e535e364348be2835bf32b73fea
-
-    Rule OTA：https://workflow.is/workflows/49cbfb5daacb4abb99cd3dc178ccbbac
-
-
     Surge User Data：
 
     1. 填入 Proxy / Proxy Group
@@ -91,6 +68,10 @@
     安装证书 & 信任证书：
     * Surge - 配置 - 编辑配置 - HTTPS 解密 - 安装证书
     * 设置 - 通用 - 关于本机 - 证书信任设置 - 信任并删除其他证书
+
+    Surge User Data：https://workflow.is/workflows/1c677e535e364348be2835bf32b73fea
+
+    Rule OTA：https://workflow.is/workflows/49cbfb5daacb4abb99cd3dc178ccbbac
 
 
 
