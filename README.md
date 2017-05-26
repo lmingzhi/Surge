@@ -74,7 +74,7 @@
     Rule OTA：https://workflow.is/workflows/49cbfb5daacb4abb99cd3dc178ccbbac
 
 
-    🆙 Shadowrocket for Workflow
+🆙 Shadowrocket for Workflow
 
     Shadowrocket Rule With Token：
 
