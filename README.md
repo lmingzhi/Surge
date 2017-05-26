@@ -63,7 +63,7 @@
 
     Token：
     * 目前多个地方（包括优酷）去广告等需要使用 Token 进行认证，避免服务器解析流量超标
-    * 使用过程中需要对生成 Token 的 IP 地址进行认证，所以需要使用节点地址，避免直连情况下的 IP 地址的频繁变换导致认证失败
+    * 使用过程中需要对生成 Token 的 IP 地址进行认证，所以需要选择使用的节点，避免直连情况下的 IP 地址的频繁变换导致认证失败
 
     安装证书 & 信任证书：
     * Surge - 配置 - 编辑配置 - HTTPS 解密 - 安装证书
@@ -72,6 +72,24 @@
     Surge User Data：https://workflow.is/workflows/1c677e535e364348be2835bf32b73fea
 
     Rule OTA：https://workflow.is/workflows/49cbfb5daacb4abb99cd3dc178ccbbac
+
+
+    🆙 Shadowrocket for Workflow
+
+    Shadowrocket Rule With Token：
+
+    第一次运行的时候，尽量将全局路由改为“代理”，运行，自动获取 Token 并替换，导入到 Shadowrocket 后，就可以将全局路由改为“配置”了
+
+时机：更新规则 / 更换获取 Token 的节点
+
+
+    Token：
+    * 目前多个地方（包括优酷）去广告等需要使用 Token 进行认证，避免服务器解析流量超标
+    * 使用过程中需要对生成 Token 的 IP 地址进行认证，所以需要连接代理服务器后生成，避免直连情况下的 IP 地址的频繁变换导致认证失败
+
+    安装证书 & 信任证书：
+    * Shadowrocket - 设置 - 证书 - 安装证书
+    * 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
 
 
 
