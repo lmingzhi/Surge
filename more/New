@@ -1,17 +1,12 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 05.28 [Surge/Shadowrocket]
+完善对 爱奇艺 广告的拦截
+修复无法绑定淘宝的问题
+
 # 05.25 [Surge/Shadowrocket]
 增加对 WPS 广告的屏蔽	via.@runniewang
-
-——————————————————————————————————————————————————————————————
-Surge User Data：
-调整了一下示范规则，更新外置模块链接，增加了一些描述
-https://workflow.is/workflows/1c677e535e364348be2835bf32b73fea
-
-Rule OTA：
-一些优化及调整，增加了可以为谷歌单独选择线路（避免阿里云验证码问题）
-https://workflow.is/workflows/4c881e0eb1114c479eb85247324f29a3
 
 # 05.19 [Surge/Shadowrocket]
 修复 什么值得买 闪退问题
