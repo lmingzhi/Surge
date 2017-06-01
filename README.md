@@ -41,7 +41,7 @@
 
 	User Data（Surge / Shadowrocket）：https://workflow.is/workflows/f0442f4b262143a1bee1c6a53ffd5813
 
-	Rule OTA（Surge / Shadowrocket）：https://workflow.is/workflows/4f8b276bb68949898deba253f82b69a1
+	Rule OTA（Surge / Shadowrocket）：https://workflow.is/workflows/ffd29a5047194a999555ab68d6dc176f
 
 
 
