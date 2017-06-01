@@ -1,6 +1,13 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 06.01 [Surge/Shadowrocket]
+修正 Shadowrocket 的 DNS
+优化 Onedrive 传输速度（Test）
+解决极小部分公共 WiFi 验证问题（也可以删除 “dns-server” 部分使得大部分公共 WiFi 验证问题得到改善，但这可能会影响 DNS 劫持以及 Apple 加速）
+
+顺便再提一点：公共 WiFi 由于每个实现的方式都不太一样，Surge 对于部分特殊实现的支持会有问题，断开先建立连接后重新开启即可
+
 # 05.28 [Surge/Shadowrocket]
 完善对 爱奇艺 广告的拦截
 修复无法绑定淘宝的问题
@@ -131,5 +138,3 @@ Worfklow 脚本也更新了，因为 Github 被墙了，添加了国内的七牛
 iOS：Adguard - https://appsto.re/cn/6T1A-.i
 
 macOS：JS Blocker - https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4
-
-更新日志重新启动！

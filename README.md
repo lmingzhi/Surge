@@ -37,59 +37,11 @@
     Safari for macOS：JS Blocker - https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4
     
 
-🆙 Surge for Workflow
+🆙 Workflow
 
-    Surge User Data：
+	User Data（Surge / Shadowrocket）：https://workflow.is/workflows/f0442f4b262143a1bee1c6a53ffd5813
 
-    1. 填入 Proxy / Proxy Group
-    2. 运行
-    3. 自动获取端口、密码、加密方式
-    4. 自动生成/更新节点信息
-    5. 自动部署 HTTPS 解密证书
-    6. 自动将相关数据保存到 iCloud Drive
-
-    时机：首次运行 / 更新服务器信息 / 更换 HTTPS 解密证书
-
-
-    Rule OTA：
-
-    1. 获取 Token 并选择相应的节点（首次运行请选“是”）
-    2. 选择使用 Google 的节点（避免阿里云验证码问题）
-    3. 是否启用 优酷 相关功能（避免会员账号引起反作用）
-    4. 自动将相关数据保存到 iCloud Drive
-
-    时机：更新规则 / 更换获取 Token 的节点 / 更换使用 Google 的节点
-
-
-    Token：
-    * 目前多个地方（包括优酷）去广告等需要使用 Token 进行认证，避免服务器解析流量超标
-    * 使用过程中需要对生成 Token 的 IP 地址进行认证，所以需要选择使用的节点，避免直连情况下的 IP 地址的频繁变换导致认证失败
-
-    安装证书 & 信任证书：
-    * Surge - 配置 - 编辑配置 - HTTPS 解密 - 安装证书
-    * 设置 - 通用 - 关于本机 - 证书信任设置 - 信任并删除其他证书
-
-    Surge User Data：https://workflow.is/workflows/1c677e535e364348be2835bf32b73fea
-
-    Rule OTA：https://workflow.is/workflows/49cbfb5daacb4abb99cd3dc178ccbbac
-
-
-🆙 Shadowrocket for Workflow
-
-    Shadowrocket Rule With Token：
-
-    第一次运行的时候，尽量将全局路由改为“代理”，运行，自动获取 Token 并替换，导入到 Shadowrocket 后，就可以将全局路由改为“配置”了
-
-    时机：更新规则 / 更换获取 Token 的节点
-
-
-    Token：
-    * 目前多个地方（包括优酷）去广告等需要使用 Token 进行认证，避免服务器解析流量超标
-    * 使用过程中需要对生成 Token 的 IP 地址进行认证，所以需要连接代理服务器后生成，避免直连情况下的 IP 地址的频繁变换导致认证失败
-
-    安装证书 & 信任证书：
-    * Shadowrocket - 设置 - 证书 - 安装证书
-    * 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
+	Rule OTA（Surge / Shadowrocket）：https://workflow.is/workflows/4f8b276bb68949898deba253f82b69a1
 
 
 
