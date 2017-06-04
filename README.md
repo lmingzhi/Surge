@@ -44,6 +44,11 @@
 	Rule OTA（Surge / Shadowrocket）：https://workflow.is/workflows/ffd29a5047194a999555ab68d6dc176f
 
 
+    Surge 视频教程：https://youtu.be/IRJOAnPZWJM
+
+    Shadowrocket 视频教程：https://youtu.be/nPFHi99PYww
+
+    PS：基于 爱兔联盟.com 提供的节点快速获取并使用
 
 # line
 
