@@ -25,7 +25,7 @@
     Hosts：https://async.be/Rule/Basic/Hosts
     （免服务器 / 自动更新 ／ 支持 google、instagram、twitter 等主流外网）
 
-    Telegram：https://telegram.me/surgenews
+    Telegram：https://telegram.me/rulenews
     （新内容发布 ／ 更方便快捷获取更新内容 ／ 进阶功能教程）
     
     更新日志：https://raw.githubusercontent.com/lhie1/Surge/master/more/New
