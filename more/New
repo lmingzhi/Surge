@@ -1,6 +1,14 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 06.07 [Surge/Shadowrocket]
+修复 京东 跳转问题
+增加 47ks 广告屏蔽
+
+# 06.05 [Shadowrocket]
+修复 Apple Music 无法下载/播放的问题
+修复 iOS/WatchOS 更新慢的问题
+
 # 06.01 [Surge/Shadowrocket]
 修正 Shadowrocket 的 DNS
 优化 Onedrive 传输速度（Test）
