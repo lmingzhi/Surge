@@ -62,6 +62,7 @@ Telegram 通知频道| https://telegram.me/surgenews
 Tutor | Raw |
 ---------|:---------:
 特别鸣谢 | [@Eval](https://twitter.com/OAuth4)
+特别鸣谢 | [@Scomper](https://medium.com/@scomper)
 特别鸣谢 | [@Neurogram](http://www.taguage.com/user?id=181456)
 特别鸣谢 | @suisr9255
 
