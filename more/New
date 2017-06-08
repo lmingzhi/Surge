@@ -1,11 +1,17 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 06.09 [Surge/Shadowrocket]
+修复 爱奇艺 首页无法刷新的问题
+完善 爱奇艺 广告屏蔽
+屏蔽 FTChinese 广告
+
+Ps：最新版 Rule OTA（运行出错请更新User Data）修改了对优酷的拦截方案（Token获取失败、iPad版无法观看的问题将得到改善）
+
 # 06.08 [Surge/Shadowrocket]
-增加广告屏蔽条目
-修复会引起 知乎 客户端连接失败的问题
+增加 广告屏蔽条目
+修复 会引起 知乎 客户端连接失败的问题
 改善 App Store 下载失败的问题
-一些调整及优化
 尽可能解决公共Wi-Fi的问题（有待考证）
 
 # 06.07 [Surge/Shadowrocket]
@@ -24,17 +30,17 @@ Telegram：https://t.me/rulenews
 顺便再提一点：公共 WiFi 由于每个实现的方式都不太一样，Surge 对于部分特殊实现的支持会有问题，断开先建立连接后重新开启即可
 
 # 05.28 [Surge/Shadowrocket]
-完善对 爱奇艺 广告的拦截
-修复无法绑定淘宝的问题
+完善 爱奇艺 广告屏蔽
+修复 无法绑定淘宝的问题
 
 # 05.25 [Surge/Shadowrocket]
-增加对 WPS 广告的屏蔽	via.@runniewang
+增加 WPS 广告屏蔽	via.@runniewang
 
 # 05.19 [Surge/Shadowrocket]
 修复 什么值得买 闪退问题
 
 # 05.13 [Surge/Shadowrocket/PHP]
-增加对 爱奇艺 视频广告的拦截
+增加 爱奇艺 广告屏蔽
 一些优化及调整
 
 # 05.12 [Surge/Shadowrocket/PHP]
