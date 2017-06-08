@@ -37,11 +37,11 @@
     Safari for macOS：JS Blocker - https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4
     
 
-🆙 Workflow 06/05 Update
+🆙 Workflow 06/08 Update
 
 	User Data（Surge / Shadowrocket）：https://workflow.is/workflows/07495a1086dd4d99998b9e6edac2b0da
 
-	Rule OTA（Surge / Shadowrocket）：https://workflow.is/workflows/64020ea15f7f4d959941404dd5422d4e
+	Rule OTA（Surge / Shadowrocket）：https://workflow.is/workflows/61ff177bb332418aa7e562a9da3bc21d
 
 
     Surge 视频教程：https://youtu.be/IRJOAnPZWJM
