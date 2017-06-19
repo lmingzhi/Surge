@@ -30,12 +30,13 @@
     
     更新日志：https://raw.githubusercontent.com/lhie1/Surge/master/more/New
 
+🤖️ Android SSR ACL
+
+	ACL4SSR：https://github.com/ACL4SSR/ACL4SSR
+
 🈲️ 浏览器广告
 
     全平台：Adguard - https://adguard.com/en/welcome.html
-
-    Safari for macOS：JS Blocker - https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4
-    
 
 🆙 Workflow 06/08 Update
 
