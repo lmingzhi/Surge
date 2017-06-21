@@ -5,45 +5,20 @@ port: 9090
 adapter:
      # id is used to distinguish adapter when defining rules.
      # There is a 'direct' adapter that connect directly to target host without proxy.
-  - id: adapter1
-     # HTTP server is a http proxy server.
-    type: HTTP
-    host: http.proxy
-    port: 3128
-    auth: true
-    username: proxy_username
-    password: proxy_password
-  - id: adapter2
-     # SHTTP server is a http proxy server on SSL.
-    type: SHTTP
-    host: http.proxy.connect.via.https
-    port: 3128
-    auth: true
-    username: proxy_username
-    password: proxy_password
-  - id: adapter3
+  - id: ss
     type: ss
-    host: ss.server
-    port: 3128
+    host: cac3.dream.ren
+    port: 9999
     # Currently support: AES-128-CFB, AES-192-CFB, AES-256-CFB, chacha20, salsa20, rc4-md5
     # Shadowsocks encryption methods are not fully tested, please report if there is anything not working.
-    method: AES-128-CFB
-    password: ss_password
-  - id: adapter4
-    type: socks5
-    host: socks5.server
-    port: 3128
-  # Speed adapter automatically connects to all specified adapters (with given delay) 
-  # and uses the fastest one that becomes ready.
+    method: chacha20
+    password: dream.ren
+
   - id: proxy
     type: SPEED
     adapters:
-      - id: adapter1
+      - id: ss
         # Delay in milliseconds.
-        delay: 0
-      - id: adapter2
-        delay: 0
-      - id: adapter3
         delay: 0
   - id: speed
     type: SPEED
