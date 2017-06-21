@@ -62,12 +62,11 @@ Telegram 通知频道| https://telegram.me/surgenews
 
 Tutor | Raw |
 ---------|:---------:
-- | [@Eval](https://twitter.com/OAuth4)
-- | [@Scomper](https://medium.com/@scomper)
-- | [@Neurogram](http://www.taguage.com/user?id=181456)
-- | @suisr9255
-- | [@Hackl0us](https://github.com/Hackl0us)
-
+@Eval | https://twitter.com/OAuth4
+@Scomper| https://medium.com/@scomper
+@Neurogram| http://www.taguage.com/user?id=181456
+@suisr9255| -
+@Hackl0us| -(https://github.com/Hackl0us)
 
 
 # Q&A
