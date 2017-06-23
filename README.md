@@ -38,11 +38,13 @@
 
     全平台：Adguard - https://adguard.com/en/welcome.html
 
-🆙 Workflow 06/08 Update
+🆙 Workflow
 
+	06/08
 	User Data（Surge / Shadowrocket）：https://workflow.is/workflows/07495a1086dd4d99998b9e6edac2b0da
 
-	Rule OTA（Surge / Shadowrocket）：https://workflow.is/workflows/61ff177bb332418aa7e562a9da3bc21d
+	06/21
+	Rule OTA（Surge / Shadowrocket）：https://workflow.is/workflows/f6145c8daf9244c89be8a5fd97c4220d
 
 
     Surge 视频教程：https://youtu.be/IRJOAnPZWJM
@@ -116,17 +118,6 @@ Tutor | Raw |
     作者建议：http://www.gstatic.com/generate_204
 
 
-#### 🍎 Apple DNS （Apple 服务加速） http://t.cn/RcgOudi
-
-    Apple DNS 通过收集 Apple 在全中国几乎所有省级行政区的 CDN IP 列表，解决 App Store / Mac App Store / iTunes Store / Apple Music / iBooks / TestFlight 在中国部分地区速度缓慢的问题。
-
-    ChinaNet：电信宽带专用
-    ChinaUnicom：联通宽带专用
-    auto(原 CMCC)：电信、联通、移动 三网通用
-
-    电信、联通宽带用户可以自行按照教程生成最适合自身网络环境的 CDN IP 列表，移动宽带用户或嫌麻烦的用户使用 auto 列表即可。
-
-
 
 # more
 
@@ -179,7 +170,7 @@ Tutor | Raw |
     
         SSR for Android：https://yhyy135.github.io/how-to-use-ssr-android/
     
-        Specht Lite for macOS：https://github.com/zhuhaow/SpechtLite/wiki/如何配置Specht-Lite
+        SpechtLite for macOS：http://www.jianshu.com/p/2acfcbfee27f
 
 # License
 
