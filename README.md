@@ -68,7 +68,7 @@ Tutor | Raw |
 @Scomper| https://medium.com/@scomper
 @Neurogram| http://www.taguage.com/user?id=181456
 @suisr9255| -
-@Hackl0us| -(https://github.com/Hackl0us)
+@Hackl0us| https://github.com/Hackl0us
 
 
 # Q&A
@@ -79,7 +79,7 @@ Tutor | Raw |
 
     🔰 Proxy ： 自动代理 / 全局代理(选择 [🌍 Direct] 为 智能分流 (Pac) ，选择 [☁️ Proxy] 即为 全局代理 )
 
-    🍎 Proxy ： 如果连接苹果服务器困难， [🍎 Proxy] 选 [🍎 Auto] ，可能会改善一些问题。
+    🍎 Proxy ： 如果连接苹果服务器困难， [🍎 Proxy] 选 代理服务器 ，可能会改善一些问题。
 
     如果 ： [☁️ Proxy] 、 [🔰 Proxy] 都选择 代理服务器 ，则为全局代理（不包括 [🍎 Proxy]）。
 
