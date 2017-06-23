@@ -71,17 +71,15 @@ Tutor | Raw |
 
 # Q&A
 
-### `☁️ Proxy` & `🔰 Proxy` & `🍎 Proxy`
+### ☁️ Proxy & 🔰 Proxy & 🍎 Proxy
 
-    `☁️ Proxy` ： 直连 / 代理
-    (如果选`🌍 Direct`则为直连，不可访问外网；选择`代理服务器`则可访问外网)
+	☁️ Proxy：🌍 Direct - 直连，不可访问外网；代理服务器 - 可访问外网
 
-    `🔰 Proxy` ： 分流 / 全局
-    (如果选`🌍 Direct`为`智能分流 (Pac)`，选`☁️ Proxy`即为`全局代理`)
+    🔰 Proxy：🌍 Direct - 智能分流 (Pac)；☁️ Proxy - 全局代理
 
-    `🍎 Proxy` ： 如果某些服务直连困难，`🍎 Proxy`选`代理服务器`，可能会改善一些问题。
+    🍎 Proxy： 如果某些服务直连困难，🍎 Proxy - 代理服务器，可能会改善一些问题。
 
-    建议 ： `☁️ Proxy - 代理服务器` 、`🔰 Proxy - 🌍 Direct` 、`🍎 Proxy - 🌍 Direct/代理服务器`
+    建议 ： ☁️ Proxy - 代理服务器；🔰 Proxy - 🌍 Direct ；🍎 Proxy - 🌍 Direct/代理服务器
 
 
 #### 🚀 SSR 混淆模式 https://github.com/breakwa11/shadowsocks-rss/blob/master/ssr.md
