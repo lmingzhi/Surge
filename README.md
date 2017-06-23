@@ -26,9 +26,7 @@
     （免服务器 / 自动更新 ／ 支持 google、instagram、twitter 等主流外网）
 
     Telegram：https://telegram.me/rulenews
-    （新内容发布 ／ 更方便快捷获取更新内容 ／ 进阶功能教程）
-    
-    更新日志：https://raw.githubusercontent.com/lhie1/Surge/master/more/New
+    （更新日志 / 新内容发布 ／ 更方便快捷获取更新内容 ／ 进阶功能教程）
 
 🤖️ Android SSR ACL
 
@@ -73,17 +71,17 @@ Tutor | Raw |
 
 # Q&A
 
-### ☁️ Proxy & 🔰 Proxy & 🍎 Proxy
+### `☁️ Proxy` & `🔰 Proxy` & `🍎 Proxy`
 
-    ☁️ Proxy ： 直连 / 代理服务器(选择 [🌍 Direct] 为 直连，选择 [其他] 则通过 代理服务器 访问)
+    `☁️ Proxy` ： 直连 / 代理
+    (如果选`🌍 Direct`则为直连，不可访问外网；选择`代理服务器`则可访问外网)
 
-    🔰 Proxy ： 自动代理 / 全局代理(选择 [🌍 Direct] 为 智能分流 (Pac) ，选择 [☁️ Proxy] 即为 全局代理 )
+    `🔰 Proxy` ： 分流 / 全局
+    (如果选`🌍 Direct`为`智能分流 (Pac)`，选`☁️ Proxy`即为`全局代理`)
 
-    🍎 Proxy ： 如果连接苹果服务器困难， [🍎 Proxy] 选 代理服务器 ，可能会改善一些问题。
+    `🍎 Proxy` ： 如果某些服务直连困难，`🍎 Proxy`选`代理服务器`，可能会改善一些问题。
 
-    如果 ： [☁️ Proxy] 、 [🔰 Proxy] 都选择 代理服务器 ，则为全局代理（不包括 [🍎 Proxy]）。
-
-    建议 ： ☁️ Proxy - 代理服务器 、🔰 Proxy - 🌍 Direct 、🍎 Proxy - 🌍 Direct
+    建议 ： `☁️ Proxy - 代理服务器` 、`🔰 Proxy - 🌍 Direct` 、`🍎 Proxy - 🌍 Direct/代理服务器`
 
 
 #### 🚀 SSR 混淆模式 https://github.com/breakwa11/shadowsocks-rss/blob/master/ssr.md
