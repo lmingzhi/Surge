@@ -1,6 +1,22 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 06.28 [Surge/Shadowrocket]
+解决 iOS11 App Store 打不开的问题 via.@ scomper
+
+# 06.27 [Surge/Shadowrocket]
+修复 众多 链接跳转失败的问题
+修复 同花顺 误拦截的问题
+屏蔽 知乎 问题中插入的广告
+屏蔽 闲鱼 启动广告
+屏蔽 0013 启动广告
+尝试解决 谷歌验证码的问题
+尝试解决 YouTube 播放失败的问题
+还有很多优化及调整 我给忘记了 暂时能记住的就这么多
+
+ps：京东、知乎等图片打不开是因为证书方面的问题（未安装或未信任）
+ps：Token 是屏蔽某些广告（包括优酷）必需的
+
 # 06.09 [Surge/Shadowrocket]
 修复 爱奇艺 首页无法刷新的问题
 完善 爱奇艺 广告屏蔽
