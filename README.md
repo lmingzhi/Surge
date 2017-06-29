@@ -41,8 +41,8 @@
 	06/08
 	User Data（Surge / Shadowrocket）：https://workflow.is/workflows/07495a1086dd4d99998b9e6edac2b0da
 
-	06/21
-	Rule OTA（Surge / Shadowrocket）：https://workflow.is/workflows/f6145c8daf9244c89be8a5fd97c4220d
+	06/29
+	Rule OTA（Surge / Shadowrocket）：https://workflow.is/workflows/75c78511c8014f44ab056b46674ee5ac
 
 
     Surge 视频教程：https://youtu.be/IRJOAnPZWJM
