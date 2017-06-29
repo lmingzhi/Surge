@@ -38,7 +38,7 @@
 
 🆙 Workflow
 
-	06/08
+	06/17
 	User Data（Surge / Shadowrocket）：https://workflow.is/workflows/07495a1086dd4d99998b9e6edac2b0da
 
 	06/29
