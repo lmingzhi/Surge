@@ -45,10 +45,6 @@
 ^https?://union.click.jd.com/jda? http://union.click.jd.com/jda?adblock= header
 ^https?://union.click.jd.com/sem.php? http://union.click.jd.com/sem.php?adblock= header
 
-// bigbogg
-^https?://apt.thebigboss.org/developer-packages.php http://async.be/Interface?AuthKey=[TOKEN]& header
-^https?://moreinfo.thebigboss.org/moreinfo/depiction.php http://async.be/Interface?AuthKey=[TOKEN]& header
-
 // 10086
 ^https?://app.10086.cn/group - reject
 
