@@ -414,7 +414,6 @@ DOMAIN-SUFFIX,agoodm.m.taobao.com,REJECT
 DOMAIN-SUFFIX,agoodm.wapa.taobao.com,REJECT
 DOMAIN-SUFFIX,alipaylog.com,REJECT
 DOMAIN-SUFFIX,amdc.alipay.com,REJECT
-DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
 DOMAIN-SUFFIX,api.wapa.taobao.com,REJECT
 DOMAIN-SUFFIX,api.waptest.taobao.com,REJECT
 DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT
