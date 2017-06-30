@@ -132,13 +132,13 @@
 ^https?://hd.mobile.youku.com/common/v3/hudong/new - reject
 ^https?://home.mobile.youku.com/layout/iphone/v5/home/page? http://async.be/Interface?AuthKey=[TOKEN]& header
 ^https?://i.gtimg.cn/ https://i.gtimg.cn/ 302
-^https?://i-play.mobile.youku.com/common/v5/play? http://async.be/Interface?AuthKey=[TOKEN]&dev=true& header
+^https?://i-play.mobile.youku.com/common/v5/play? http://async.be/Interface?AuthKey=[TOKEN]& header
 ^https?://l.youku.com - reject
 ^https?://m.youku.com/video/libs/iwt.js - reject
 ^https?://pic.k.sohu.com/img8/wb/tj/ - reject
 ^https?://pl.youku.com - reject
 ^https?://r.l.youku.com/rec_at_click - reject
-^https://ups.youku.com/ups/get.json? http://async.be/Interface?AuthKey=[TOKEN]&dev=true& 302
+^https://ups.youku.com/ups/get.json? http://async.be/Interface?AuthKey=[TOKEN]& 302
 
 // ZhuiShu
 ^https?://api.zhuishushenqi.com/advert?platform=ios&position=all - reject
