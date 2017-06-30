@@ -210,7 +210,6 @@
 ^https?://mp.weixin.qq.com/mp/report - reject
 ^https?://news.l.qq.com\/app\?.* - reject
 ^https?://r.inews.qq.com/getSplash\?apptype=ios\&startarticleid=\&__qnr=.* - reject
-^https?://sqimg.qq.com/ https://sqimg.qq.com/ 302
 
 // Weibo
 ^https?://api.weibo.cn\/2\/statuses\/longtext_show_batch\?gsid= - reject
@@ -234,7 +233,7 @@
 
 // Xianyu
 ^https?://gw.alicdn.com\/mt\/.* - reject
-^https?://gw.alicdn.com/tps/* - reject
+^https?://gw.alicdn.com/tps/.* - reject
 
 // Ximalaya
 ^https?://adse.*\.com\/[a-z]{4}\/loading\?appid=.* - reject
@@ -279,10 +278,13 @@
 ^https?://img.53site.com/Werewolf/AD - reject
 
 // 0013
-^https?://.*0013.*/upload/activity/app_flash_screen_* - reject
+^https?://.*0013.*/upload/activity/app_flash_screen_.* - reject
 
 // Tonghuashun
-^https?://adm.10jqka.com.cn/img/ad/ - reject
+^https?://adm.10jqka.com.cn/img/ad/.* - reject
+
+// Tianshan live
+^http?://www.tsytv.com.cn/api/app/ios/ads - reject
 
 // Other
 ^.*/allOne.php\?ad_name=main_splash_ios - reject
@@ -292,7 +294,7 @@
 ^https?://\?resource=article\/recommend\&accessToken=. - reject
 ^https?://api.newad.ifeng.com\/ClientAdversApi1508\?adids=.* - reject
 ^https?://cfg.m.ttkvod.com/mobile/ttk_mobile_1.8.txt http://ogtre5vp0.bkt.clouddn.com/Static/TXT/ttk_mobile_1.8.txt header
-^https?://creatives.ftimg.net/ads/ - reject
+^https?://creatives.ftimg.net/ads/.* - reject
 ^https?://dd.iask.cn/ddd/adAudit - reject
 ^https?://g.tbcdn.cn/mtb/ - reject
 ^https?://huichuan.sm.cn/jsad? - reject
@@ -314,11 +316,11 @@
 ^https?://static.dnvod.tv/upload/gaming - reject
 ^https?://static.iask.cn/m-v20161228/js/common/adAudit.min.js - reject
 ^https?://static.m.ttkvod.com/static_cahce/index/index.txt http://ogtre5vp0.bkt.clouddn.com/Static/TXT/index.txt header
-^https?://v.17173.com/api/Allyes/ - reject
+^https?://v.17173.com/api/Allyes/.* - reject
 ^https?://wmedia-track.uc.cn - reject
 ^https?://www.dnvod.tv/images/LoadTest - reject
 ^https?://www.dnvod.tv/upload/gaming - reject
 ^https?://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fcreatives.ftimg.net%2Fads* - reject
-^https?://www.inoreader.com/adv/ - reject
+^https?://www.inoreader.com/adv/.* - reject
 ^https?://www.iqshw.com/d/js/m http://rewrite.websocket.site:10/Other/Static/JS/Package.js? header
-^https?://www.lianbijr.com/adPage/ - reject
+^https?://www.lianbijr.com/adPage/.* - reject
