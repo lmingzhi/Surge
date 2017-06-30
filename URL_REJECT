@@ -138,7 +138,7 @@
 ^https?://pic.k.sohu.com/img8/wb/tj/ - reject
 ^https?://pl.youku.com - reject
 ^https?://r.l.youku.com/rec_at_click - reject
-^https://ups.youku.com/ups/get.json? http://async.be/Interface?AuthKey=[TOKEN]& 302
+^https://ups.youku.com/ups/get.json? http://async.be/Interface?AuthKey=[TOKEN] &dev=true& 302
 
 // ZhuiShu
 ^https?://api.zhuishushenqi.com/advert?platform=ios&position=all - reject
