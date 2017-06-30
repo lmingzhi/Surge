@@ -90,7 +90,7 @@
 ^https?://iis1.deliver.ifeng.com\/getmcode\?adid=.* - reject
 
 // jd
-^.*m.360buyimg.com\/mobilecms\/s640x1136_jfs\/.* - reject
+^https?://m.360buyimg.com\/mobilecms\/s640x1136_jfs\/.* - reject
 
 // Moji
 ^https?://ad.api.moji.com/ad/log/stat - reject
@@ -172,7 +172,7 @@
 ^https?://www.zhihu.com/node/Banner? - reject
 
 // 163 music
-^.*163\.com\/madr\?app=\b.*platform=\b.*uid.* - reject
+^https?://163\.com\/madr\?app=\b.*platform=\b.*uid.* - reject
 ^https?://p\d{1}.music.126.net/+/(\d).jpg?res=(\d) - reject
 
 // Douban
@@ -197,8 +197,8 @@
 ^https?://ios.win007.com/Phone/images - reject
 
 // letv
-^.+ark.letv.com\/adx\?adzone=.+ _ reject
-^.+ark.letv.com\/t\?mid=\d{7}$ _ reject
+^https?://ark.letv.com\/adx\?adzone=.+ _ reject
+^https?://ark.letv.com\/t\?mid=\d{7}$ _ reject
 
 // Toutiao
 ^https?://p\d{1}.pstatp.com/origin - reject
@@ -237,7 +237,7 @@
 ^https?://gw.alicdn.com/tps/* - reject
 
 // Ximalaya
-^.*adse.*\.com\/[a-z]{4}\/loading\?appid=.* - reject
+^https?://adse.*\.com\/[a-z]{4}\/loading\?appid=.* - reject
 ^https?://adse.ximalaya.com\/ting\/feed\?appid=.* - reject
 ^https?://adse.ximalaya.com\/ting\/loading\?appid=.* - reject
 ^https?://adse.ximalaya.com\/ting\?appid=.* - reject
