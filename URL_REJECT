@@ -52,8 +52,8 @@
 ^https?://m1.ad.10010.com/noticeMag/images/imageUpload - reject
 
 // ChinaRailcom
-^https?://211.98.70.226:8080/ http://async.be/Interface?AuthKey=[TOKEN] 302
-^https?://211.98.71.195:8080/ http://async.be/Interface?AuthKey=[TOKEN]302
+^https?://211.98.70.226:8080/ http://async.be/Interface?AuthKey=[TOKEN]& 302
+^https?://211.98.71.195:8080/ http://async.be/Interface?AuthKey=[TOKEN]& 302
 ^https?://211.98.71.196:8080/ http://async.be/Interface?AuthKey=[TOKEN]& 302
 
 // baidu
@@ -138,7 +138,7 @@
 ^https?://pic.k.sohu.com/img8/wb/tj/ - reject
 ^https?://pl.youku.com - reject
 ^https?://r.l.youku.com/rec_at_click - reject
-^https://ups.youku.com/ups/get.json? http://async.be/Interface?AuthKey=[TOKEN] &dev=true& 302
+^https://ups.youku.com/ups/get.json? http://async.be/Interface?AuthKey=[TOKEN]&dev=true& 302
 
 // ZhuiShu
 ^https?://api.zhuishushenqi.com/advert?platform=ios&position=all - reject
