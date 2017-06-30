@@ -279,7 +279,7 @@
 ^https?://img.53site.com/Werewolf/AD - reject
 
 // 0013
-^https?://*/upload/activity/app_flash_screen_* - reject
+^https?://.*0013.*/upload/activity/app_flash_screen_* - reject
 
 // Tonghuashun
 ^https?://adm.10jqka.com.cn/img/ad/ - reject
