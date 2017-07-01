@@ -139,7 +139,7 @@
 ^https?://pl.youku.com - reject
 ^https?://r.l.youku.com/rec_at_click - reject
 ^https?://r1.ykimg.com/material/.* - reject
-^https?://ups.youku.com/ups/get.json? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& 302
+// ^https?://ups.youku.com/ups/get.json? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& 302
 
 // ZhuiShu
 ^https?://api.zhuishushenqi.com/advert?platform=ios&position=all - reject
