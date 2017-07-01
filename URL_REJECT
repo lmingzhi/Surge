@@ -117,7 +117,30 @@
 ^https?://r.inews.qq.com/upLoadLoc - reject
 
 // Youku
-^https?://ad.api.3g.youku.com - reject^https?://api.appsdk.soku.com/bg/r - reject^https?://api.appsdk.soku.com/tag/r - reject^https?://api.k.sohu.com/api/channel/ad/ - reject^https?://api.mobile.youku.com/adv/ - reject^https?://api.mobile.youku.com/initial? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& 302^https?://api.mobile.youku.com/layout/search/hot/word - reject^https?://appsdk.soku.com/bg/r? - reject^https?://atm.youku.com - reject^https?://burpsuite.applinzi.com/common/v5/play https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& header^https?://d.m6.cms.mobile.youku.com/player/domain_name? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& header^https?://hd.api.mobile.youku.com/common/v3/hudong/new - reject^https?://hd.mobile.youku.com/common/v3/hudong/new - reject^https?://home.mobile.youku.com/layout/iphone/v5/home/page? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& header^https?://i.gtimg.cn/ https://i.gtimg.cn/ 302^https?://i-play.mobile.youku.com/common/v5/play? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& header^https?://l.youku.com - reject^https?://m.youku.com/video/libs/iwt.js - reject^https?://pic.k.sohu.com/img8/wb/tj/ - reject^https?://pl.youku.com - reject^https?://r.l.youku.com/rec_at_click - reject^https?://ups.youku.com/ups/get.json? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& 302
+^https?://ad.api.3g.youku.com - reject
+^https?://api.appsdk.soku.com/bg/r - reject
+^https?://api.appsdk.soku.com/tag/r - reject
+^https?://api.k.sohu.com/api/channel/ad/ - reject
+^https?://api.mobile.youku.com/adv/ - reject
+^https?://api.mobile.youku.com/initial? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& 302
+^https?://api.mobile.youku.com/layout/search/hot/word - reject
+^https?://appsdk.soku.com/bg/r? - reject
+^https?://atm.youku.com - reject
+^https?://burpsuite.applinzi.com/common/v5/play https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& header
+^https?://d.m6.cms.mobile.youku.com/player/domain_name? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& header
+^https?://hd.api.mobile.youku.com/common/v3/hudong/new - reject
+^https?://hd.mobile.youku.com/common/v3/hudong/new - reject
+^https?://home.mobile.youku.com/layout/iphone/v5/home/page? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& header
+^https?://i.gtimg.cn/ https://i.gtimg.cn/ 302
+^https?://i-play.mobile.youku.com/common/v5/play? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& header
+^https?://l.youku.com - reject
+^https?://m.youku.com/video/libs/iwt.js - reject
+^https?://pic.k.sohu.com/img8/wb/tj/ - reject
+^https?://pl.youku.com - reject
+^https?://r.l.youku.com/rec_at_click - reject
+^https?://r1.ykimg.com/material/.*/828-1472.* - reject
+^https?://r1.ykimg.com/material/.*/youku-shuangduan-banner.* - reject
+^https?://ups.youku.com/ups/get.json? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& 302
 
 // ZhuiShu
 ^https?://api.zhuishushenqi.com/advert?platform=ios&position=all - reject
@@ -145,7 +168,11 @@
 ^https?://s1.api.tv.itc.cn/v4/mobile/searchFunctionConfig/list.json? - reject
 
 // Zhihu
-^https?://api.zhihu.com/carousel? - reject^https?://oia.zhihu.com/questions/ https://www.zhihu.com/question/ 302^https?://www.zhihu.com/api/v4/banners/mobile_banner - reject^https?://www.zhihu.com/api/v4/banners/mobile_question_cpd - reject^https?://www.zhihu.com/node/Banner? - reject
+^https?://api.zhihu.com/carousel? - reject
+^https?://oia.zhihu.com/questions/ https://www.zhihu.com/question/ 302
+^https?://www.zhihu.com/api/v4/banners/mobile_banner - reject
+^https?://www.zhihu.com/api/v4/banners/mobile_question_cpd - reject
+^https?://www.zhihu.com/node/Banner? - reject
 
 // 163 music
 ^https?://163\.com\/madr\?app=\b.*platform=\b.*uid.* - reject
@@ -166,7 +193,8 @@
 ^https?://www1.elecfans.com/www/delivery/ - reject
 
 // Flex
-^https?://delete-api2.getflex.co/user/profileSettings/info - reject^https?://delete-api2.getflex.co/user/signIn http://burpsuite.applinzi.com/Flex/test.php?Method=signIn&DeviceID=f052aa5404bd68120cf38103986eadfa8287a9f9 302
+^https?://delete-api2.getflex.co/user/profileSettings/info - reject
+^https?://delete-api2.getflex.co/user/signIn http://burpsuite.applinzi.com/Flex/test.php?Method=signIn&DeviceID=f052aa5404bd68120cf38103986eadfa8287a9f9 302
 
 // ios.win007
 ^https?://ios.win007.com/Phone/images - reject
@@ -262,7 +290,8 @@
 ^http?://www.tsytv.com.cn/api/app/ios/ads - reject
 
 // Xiami
-^https?://spark.api.xiami.com/api http://async.be/Interface?AuthKey=[AUTHKEY]& header^https?://spark.xiami.com/api https://async.be/Interface?AuthKey=[AUTHKEY]& header
+^https?://spark.api.xiami.com/api http://async.be/Interface?AuthKey=[AUTHKEY]& header
+^https?://spark.xiami.com/api https://async.be/Interface?AuthKey=[AUTHKEY]& header
 
 // Other
 ^.*/allOne.php\?ad_name=main_splash_ios - reject

@@ -141,6 +141,8 @@ DOMAIN-SUFFIX,wan.youku.com,REJECT
 DOMAIN-SUFFIX,ykatr.youku.com,REJECT
 DOMAIN-SUFFIX,ykrec.youku.com,REJECT
 DOMAIN-SUFFIX,ykrectab.youku.com,REJECT
+IP-CIDR,223.87.176.176/22,REJECT,no-resolve
+IP-CIDR,223.87.182.54/22,REJECT,no-resolve
 
 // Youtube
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
