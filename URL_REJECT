@@ -138,8 +138,7 @@
 ^https?://pic.k.sohu.com/img8/wb/tj/ - reject
 ^https?://pl.youku.com - reject
 ^https?://r.l.youku.com/rec_at_click - reject
-^https?://r1.ykimg.com/material/.*/828-1472.* - reject
-^https?://r1.ykimg.com/material/.*/youku-shuangduan-banner.* - reject
+^https?://r1.ykimg.com/material/.* - reject
 ^https?://ups.youku.com/ups/get.json? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& 302
 
 // ZhuiShu
