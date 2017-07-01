@@ -166,7 +166,7 @@
 ^https?://www1.elecfans.com/www/delivery/ - reject
 
 // Flex
-^https?://delete-api2.getflex.co/user/profileSettings/info - reject^https?://delete-api2.getflex.co/user/signIn http://burpsuite.applinzi.com/Flex/test.php?Method=signIn&DeviceID=f052aa5404bd68120cf38103986eadfa8287a9f9 302xi
+^https?://delete-api2.getflex.co/user/profileSettings/info - reject^https?://delete-api2.getflex.co/user/signIn http://burpsuite.applinzi.com/Flex/test.php?Method=signIn&DeviceID=f052aa5404bd68120cf38103986eadfa8287a9f9 302
 
 // ios.win007
 ^https?://ios.win007.com/Phone/images - reject
