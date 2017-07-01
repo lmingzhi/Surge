@@ -3,6 +3,8 @@ Telegram：https://t.me/rulenews
 
 # 07.01 [Surge/Shadowrocket]
 修复：有可能引起微信收发消息慢的问题（也许是bug，不确定是什么原因引起，只能说尽量解决）
+修复：优酷屏蔽广告失效
+新增：虾米音乐方面功能
 
 # 06.31 [Surge/Shadowrocket]
 删除：观看优酷会员视频 仅保留屏蔽广告功能
