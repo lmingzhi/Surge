@@ -178,7 +178,7 @@
 ^https?://p\d{1}.music.126.net/+/(\d).jpg?res=(\d) - reject
 
 // Douban
-^https?://img\d{1}.doubanio.com/view/dale-online/dale_ad - reject
+^https?://erebor.douban.com/.*?&ad_id=.* - reject
 
 // Douyu
 ^https?://capi.douyucdn.cn\/.*\/appapi\/getinfo\?.* - reject
