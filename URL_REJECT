@@ -46,10 +46,13 @@
 ^https?://union.click.jd.com/sem.php? http://union.click.jd.com/sem.php?adblock= header
 
 // 10086
-^https?://app.10086.cn/group - reject
+^http?？://gd.10086.cn/gmccapp/file/image/advertising/.* - reject
+^http?？://gd.10086.cn/gmccapp/file/image/homepage/adver.* - reject
+^http?？://gd.10086.cn/gmccapp/loca.* - reject
+^https?://app.10086.cn/group.* - reject
 
 // 10010
-^https?://m1.ad.10010.com/noticeMag/images/imageUpload - reject
+^https?://m.client.10010.com/mobileService/activity/get_startadv.* - reject
 
 // ChinaRailcom
 ^https?://211.98.70.226:8080/ http://async.be/Interface?AuthKey=[AUTHKEY]& 302
@@ -301,6 +304,9 @@
 
 // Shouzhou
 ^https?://img01.10101111cdn.com/adpos/share/.* - reject
+
+// liuliang cbb
+^https?://bank.wo.cn/public/upres/.* - reject
 
 // Xiami
 ^https?://spark.api.xiami.com/api http://async.be/Interface?AuthKey=[AUTHKEY]& header

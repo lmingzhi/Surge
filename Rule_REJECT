@@ -1232,6 +1232,7 @@ DOMAIN-SUFFIX,go-mpulse,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
 DOMAIN-SUFFIX,guohead.com,REJECT
 DOMAIN-SUFFIX,guomob.com,REJECT
+DOMAIN-SUFFIX,handheld.now.com,REJECT
 DOMAIN-SUFFIX,haoghost.com,REJECT
 DOMAIN-SUFFIX,hosting.miarroba.info,REJECT
 DOMAIN-SUFFIX,hxspc.com,REJECT
@@ -1326,11 +1327,13 @@ DOMAIN-SUFFIX,sitemeter.com,REJECT
 DOMAIN-SUFFIX,sitescout.com,REJECT
 DOMAIN-SUFFIX,smartadserver.com,REJECT
 DOMAIN-SUFFIX,smartmad.com,REJECT
+DOMAIN-SUFFIX,snap.snapmobile.asia,REJECT
 DOMAIN-SUFFIX,somecoding.com,REJECT
 DOMAIN-SUFFIX,spade.twitch.tv,REJECT
 DOMAIN-SUFFIX,sponsorpay.com,REJECT
 DOMAIN-SUFFIX,ssp.kssws.ks-cdn.com,REJECT
 DOMAIN-SUFFIX,static.plista.com,REJECT
+DOMAIN-SUFFIX,static.snapmobile.asia,REJECT
 DOMAIN-SUFFIX,stats.chinaz.com,REJECT
 DOMAIN-SUFFIX,stats.developingperspective.com,REJECT
 DOMAIN-SUFFIX,stats.jpush.cn,REJECT
