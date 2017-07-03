@@ -91,14 +91,15 @@
 ^https?://iis1.deliver.ifeng.com\/getmcode\?adid=.* - reject
 
 // jd
-^https?://m.360buyimg.com\/mobilecms\/s640x1136_jfs\/.* - reject
+^https?://img12.360buyimg.com/jrpmobile/jfs/.* - reject
+^https?://m.360buyimg.com\/mobilecms\/s640x1136.* - reject
 
 // Moji
 ^https?://ad.api.moji.com/ad/log/stat - reject
 ^https?://ast.api.moji.com/assist/ad/moji/stat - reject
 ^https?://cdn.moji.com/adlink/avatarcard - reject
 ^https?://cdn.moji.com/adlink/common - reject
-^https?://cdn.moji.com/adlink/splash/ - reject
+^https?://cdn.moji.com/adlink/splash/.* - reject
 ^https?://cdn.moji.com/advert/ - reject
 ^https?://cdn2.moji002.com/webpush/ad2/ - reject
 ^https?://fds.api.moji.com/card/recommend - reject
