@@ -289,6 +289,21 @@
 // Tianshan live
 ^http?://www.tsytv.com.cn/api/app/ios/ads - reject
 
+// kfc
+^https?://res.kfc.com.cn/advertisement/.* - reject
+
+// Zhaoshang cbb
+^https?://pic1cdn.cmbchina.com/appinitads/.* - reject
+
+// Qianniu
+^https?://img.alicdn.com/bao/uploaded/.* - reject
+
+// Shouyue
+^https?://img.yun.01zhuanche.com/statics/app/advertisement/.* - reject
+
+// Shouzhou
+^https?://img01.10101111cdn.com/adpos/share/.*  - reject
+
 // Xiami
 ^https?://spark.api.xiami.com/api http://async.be/Interface?AuthKey=[AUTHKEY]& header
 ^https?://spark.xiami.com/api https://async.be/Interface?AuthKey=[AUTHKEY]& header
