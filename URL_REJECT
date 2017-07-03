@@ -302,7 +302,7 @@
 ^https?://img.yun.01zhuanche.com/statics/app/advertisement/.* - reject
 
 // Shouzhou
-^https?://img01.10101111cdn.com/adpos/share/.*  - reject
+^https?://img01.10101111cdn.com/adpos/share/.* - reject
 
 // Xiami
 ^https?://spark.api.xiami.com/api http://async.be/Interface?AuthKey=[AUTHKEY]& header
