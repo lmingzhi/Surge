@@ -305,7 +305,7 @@
 // Shouzhou
 ^https?://img01.10101111cdn.com/adpos/share/.* - reject
 
-// liuliang cbb
+// Flow cbb
 ^https?://bank.wo.cn/public/upres/.* - reject
 
 // Xiami
