@@ -91,7 +91,8 @@
 ^https?://iis1.deliver.ifeng.com\/getmcode\?adid=.* - reject
 
 // jd
-^https?://img12.360buyimg.com/jrpmobile/jfs/.* - reject
+^https?://img12.360buyimg.com/jrpmobile/jfs/.*&height=1854
+ - reject
 ^https?://m.360buyimg.com\/mobilecms\/s640x1136.* - reject
 
 // Moji
