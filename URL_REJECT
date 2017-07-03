@@ -218,6 +218,8 @@
 ^https?://api.weibo.cn\/2\/statuses\/longtext_show_batch\?gsid= - reject
 ^https?://api.weibo.cn\/2\/statuses\/publisher_extinfo\?gsid=.* - reject
 ^https?://d\d{1}.sina.com.cn - reject
+^https?://h5.sinaimg.cn/upload/.*/gj_vip_.*.png - reject
+^https?://img.t.sinajs.cn/t\d{1}/skin/public/feed_cover/.* - reject
 ^https?://sdkapp.mobile.sina.cn/interface/sdk/actionad.php - reject
 ^https?://sdkapp.mobile.sina.cn/interface/sdk/sdkad.php - reject
 ^https?://simg.s.weibo.com/20170301120648_ios.gif - reject
