@@ -1,6 +1,11 @@
 想要更方便快捷了解更新内容？
 Telegram：https://t.me/rulenews
 
+# 07.03 [Surge/Shadowrocket]
+新增：部分广告联盟的屏蔽
+完善：糗事百科的广告屏蔽
+新增：屏蔽微博的头像挂件、卡片背景
+
 # 07.01 [Surge/Shadowrocket]
 修复：有可能引起微信加载慢的问题
 修复：优酷屏蔽广告失效
@@ -12,6 +17,8 @@ Telegram：https://t.me/rulenews
 # 06.30 [Surge/Shadowrocket]
 修复：0013 客户端启动广告拦截失效
 修复：淘宝 图标误拦截
+
+____________________________________________
 
 # 06.28 [Surge/Shadowrocket]
 解决 iOS11 App Store 打不开的问题 via.@ scomper
