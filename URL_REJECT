@@ -48,7 +48,7 @@
 // 10086
 ^.*/file/image/advertising/.* - reject
 ^.*/file/image/homepage/adver.* - reject
-^http?？://gd.10086.cn/gmccapp/loca.* - reject
+^https?://gd.10086.cn/gmccapp/loca.* - reject
 ^https?://app.10086.cn/group.* - reject
 
 // 10010
