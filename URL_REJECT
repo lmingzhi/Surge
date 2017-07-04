@@ -46,8 +46,8 @@
 ^https?://union.click.jd.com/sem.php? http://union.click.jd.com/sem.php?adblock= header
 
 // 10086
-^http?？://gd.10086.cn/gmccapp/file/image/advertising/.* - reject
-^http?？://gd.10086.cn/gmccapp/file/image/homepage/adver.* - reject
+^.*/file/image/advertising/.* - reject
+^.*/file/image/homepage/adver.* - reject
 ^http?？://gd.10086.cn/gmccapp/loca.* - reject
 ^https?://app.10086.cn/group.* - reject
 
