@@ -34,7 +34,7 @@
     Hosts：https://async.be/Rule/Basic/Hosts
     （免服务器 / 自动更新 ／ 支持 google、instagram、twitter 等主流外网）
 
-    Telegram：https://telegram.me/rulenews
+    Telegram：http://t.me/RuleNews
     （更新日志 / 新内容发布 ／ 更方便快捷获取更新内容 ／ 进阶功能教程）
 
 🤖️ Android SSR ACL
@@ -53,7 +53,7 @@ About | Raw |
 ---------|:---------:
 新浪微博 | [@lhie1](http://www.weibo.com/1748625493)
 Telegram 讨论组| https://telegram.me/lhie1x
-Telegram 通知频道| https://t.me/rulenews
+Telegram 通知频道| http://t.me/RuleNews
 购买翻墙服务| [爱兔联盟（通往新宇宙的船票）](https://爱兔联盟.com)
 
 Tutor | Raw |
