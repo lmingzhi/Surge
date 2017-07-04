@@ -20,7 +20,7 @@
 
     User Data：https://workflow.is/workflows/7100cebf06ad4adead9aac76e45e50b2
 
-    Rule OTA：https://workflow.is/workflows/5506a2e1fe68496a92ed9087475e1b25
+    Rule OTA：https://workflow.is/workflows/c4dc05309bd04bb1a69b273cf6bbb9c4
 
 
     Surge 视频教程：https://youtu.be/IRJOAnPZWJM
