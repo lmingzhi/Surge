@@ -69,11 +69,11 @@ Tutor | Raw |
 
 ### ☁️ Proxy & 🔰 Proxy & 🍎 Proxy
 
-	☁️ Proxy：🌍 Direct - 直连，不可访问外网；代理服务器 - 可访问外网
+	☁️ Proxy：管控国外的流量；🌍 Direct - 直连，不可访问外网；代理服务器 - 可访问外网
 
-    🔰 Proxy：🌍 Direct - 智能分流 (Pac)；☁️ Proxy - 全局代理
+    🔰 Proxy：管控国内的流量；🌍 Direct - 智能分流 (Pac)；☁️ Proxy - 全局代理
 
-    🍎 Proxy： 如果某些服务直连困难，🍎 Proxy - 代理服务器，可能会改善一些问题。
+    🍎 Proxy： 管控苹果的流量；如果苹果某些服务直连困难，设其为代理，可能会改善一些问题：🍎 Proxy - 代理服务器
 
     建议 ： ☁️ Proxy - 代理服务器；🔰 Proxy - 🌍 Direct ；🍎 Proxy - 🌍 Direct/代理服务器
 
