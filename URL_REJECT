@@ -184,6 +184,7 @@
 ^https?://p\d{1}.music.126.net/+/(\d).jpg?res=(\d) - reject
 
 // Douban
+^https?://api.douban.com/v2/app_ads.* - reject
 ^https?://erebor.douban.com/.*?&ad_id=.* - reject
 ^https?://img\d{1}.doubanio.com/view/dale-online/dale_ad.* - reject
 
