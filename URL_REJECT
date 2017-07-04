@@ -185,6 +185,7 @@
 
 // Douban
 ^https?://erebor.douban.com/.*?&ad_id=.* - reject
+^https?://img\d{1}.doubanio.com/view/dale-online/dale_ad.* - reject
 
 // Douyu
 ^https?://capi.douyucdn.cn\/.*\/appapi\/getinfo\?.* - reject
