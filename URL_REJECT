@@ -324,8 +324,8 @@
 ^https?://img.ihytv.com/material/adv/img/.* - reject
 
 // Other
-^.*\/ad.js - reject
-^.*\/allOne.php\?ad_name=main_splash_ios - reject
+^.*/ad.js - reject
+^.*/allOne.php\?ad_name=main_splash_ios - reject
 ^.*\?resource=article\/recommend\&accessToken=.* - reject
 ^.*nga\.cn.*\bhome.*\b=ad.* - reject
 ^https?://*/allOne.php\?ad_name=main_splash_ios - reject
