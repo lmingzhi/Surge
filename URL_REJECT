@@ -187,8 +187,8 @@
 // Douban
 ^https?://api.douban.com/v2/app_ads.* - reject
 ^https?://erebor.douban.com/.*?&ad_id=.* - reject
-^https://img \d{1}.doubanio.com\/f\/talion\/.*?\/pics\/card\/bottom_ad.png - reject
-^https://img \d{1}.doubanio.com\/f\/talion\/.*?\/pics\/card\/bottom_ad_close.png - reject
+^https://img\d{1}.doubanio.com\/f\/talion\/.*?\/pics\/card\/bottom_ad.png - reject
+^https://img\d{1}.doubanio.com\/f\/talion\/.*?\/pics\/card\/bottom_ad_close.png - reject
 ^https?://img\d{1}.doubanio.com/view/dale-online/dale_ad.* - reject
 
 // Douyu
