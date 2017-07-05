@@ -318,7 +318,7 @@
 ^https?://spark.xiami.com/api https://async.be/Interface?AuthKey=[AUTHKEY]& header
 
 // Haiyan
-^https？://img.ihytv.com/material/adv/img/.* - reject
+^https?://img.ihytv.com/material/adv/img/.* - reject
 
 // Other
 ^.*/allOne.php\?ad_name=main_splash_ios - reject
