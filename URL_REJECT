@@ -140,6 +140,7 @@
 ^https?://pic.k.sohu.com/img8/wb/tj/ - reject
 ^https?://pl.youku.com - reject
 ^https?://r.l.youku.com/rec_at_click - reject
+^https?://r1.ykimg.com/material/.*/828-1472 - reject
 ^https?://api.mobile.youku.com/initial? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& 302
 ^https?://burpsuite.applinzi.com/common/v5/play https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& header
 ^https?://d.m6.cms.mobile.youku.com/player/domain_name? https://async.be/Interface?AuthKey=[AUTHKEY]&dev=true& header
