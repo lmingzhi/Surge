@@ -569,9 +569,6 @@ DOMAIN-SUFFIX,ecmc.bdimg.com,REJECT
 DOMAIN-SUFFIX,eiv.baidu.com,REJECT
 DOMAIN-SUFFIX,entry.baidu.com,REJECT
 DOMAIN-SUFFIX,ers.baidu.com,REJECT
-DOMAIN-SUFFIX,f10.baidu.com,REJECT
-DOMAIN-SUFFIX,f11.baidu.com,REJECT
-DOMAIN-SUFFIX,f12.baidu.com,REJECT
 DOMAIN-SUFFIX,fclick.baidu.com,REJECT
 DOMAIN-SUFFIX,fex.bdstatic.com,REJECT
 DOMAIN-SUFFIX,fexclick.baidu.com,REJECT
@@ -632,9 +629,6 @@ DOMAIN-SUFFIX,static.su.baidu.com,REJECT
 DOMAIN-SUFFIX,static.tieba.baidu.com,REJECT
 DOMAIN-SUFFIX,su.bdimg.com,REJECT
 DOMAIN-SUFFIX,su.bdstatic.com,REJECT
-DOMAIN-SUFFIX,t10.baidu.com,REJECT
-DOMAIN-SUFFIX,t11.baidu.com,REJECT
-DOMAIN-SUFFIX,t12.baidu.com,REJECT
 DOMAIN-SUFFIX,testwn.baidu.com,REJECT
 DOMAIN-SUFFIX,tipsdk.baidu.com,REJECT
 DOMAIN-SUFFIX,tk.baidu.com,REJECT
