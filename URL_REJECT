@@ -314,7 +314,7 @@
 ^https?://img01.10101111cdn.com/adpos/share/.* - reject
 
 // Flow cbb
-^https?://bank.wo.cn/public/upres/.* - reject
+^ https?://bank.wo.cn/v9/getstartpage.* - reject
 
 // Xiami
 ^https?://spark.api.xiami.com/api https://async.be/Interface?AuthKey=[AUTHKEY]& header
