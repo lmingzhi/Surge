@@ -49,7 +49,7 @@
 
 # line
 
-About | Raw |
+About | Link |
 ---------|:---------:
 新浪微博 | [@lhie1](http://www.weibo.com/1748625493)
 Telegram 讨论组| https://telegram.me/lhie1x
