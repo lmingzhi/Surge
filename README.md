@@ -9,14 +9,14 @@
     * Surge
     * Shadowrocket
 * 导入方式
-    * ~~URL~~
+    * ~~URL（暂弃）~~
     * Workflow(#workflow)
     * [~~在线更新（暂弃）~~](https://github.com/lhie1/RuleList)
-* [功能](#功能)
+* [可实现](#可实现)
 
 ---
 
-### 功能
+### 实现功能
 * 自动代理 / 全局代理
 * 解决本地 DNS 可能带来的干扰
 * 可突破部分内网限制（公司、学校）
@@ -33,9 +33,11 @@
 * Apple 服务加速（App Store、Apple Music、Apple流媒体、iCloud备份、iCloud Drive、iTunes 等）
 * 国外常用网站加速（Google/Youtube/Twitter/Facebook/instagram/wikipedia/Github 等）
 
+---
+
 ### Workflow
 
-* User Data
+* [User Data](#user-data)
     * 自定义[Proxy]节点
     * 自动根据[Proxy]内容生成[Proxy Group]
     * 自定义添加[Rule]规则
@@ -43,8 +45,9 @@
     * 自定义添加[URL Rewrite]规则
     * 自定义添加[SSID Setting]规则
     * 自定义删除规则（All）
-* Rule OTA
-    * Special_Proxy
+    * 生成证书
+* [Rule OTA](#rule-ota)
+    * [Special_Proxy](#special_proxy)
         * AuthKey
         * Google
         * Netflix
@@ -53,20 +56,39 @@
         * Adblocker
         * TestFlight
         * Emoji
+        * ~~Youku~~
     * 自动更新
-    * 自动修复 module 模块
+    * 自动修复`module`模块地址
     * 生成规则
 
-#### User Data
+#### [User Data](https://workflow.is/workflows/7100cebf06ad4adead9aac76e45e50b2)
 
-Download：https://workflow.is/workflows/7100cebf06ad4adead9aac76e45e50b2
+#### [Rule OTA](https://workflow.is/workflows/1178156c473b45cb9b10205b39e46faa)
+##### Special_Proxy
 
-#### Rule OTA
+* ###### AuthKey
+````
+1. 目前多个地方去广告等需要使用 AuthKey 进行认证，防止接口被拷贝盗用
+2. 使用过程中需要对生成 AuthKey 的 IP 地址进行认证，所以需要选择代理服务器生成，避免直连情况下的 IP 地址的频繁变换导致认证失败
+3. AuthKey 字段为接口加密数据定位符,使用 OpenSSL RSA4096 加密生成的下载用户唯一权限标识符
+4. 无 AuthKey 将导致无法请求接口返回 400 错误，AuthKey 包含唯一信息,请求过多将导致 AuthKey 加入黑名单
+5. 网络请求 Header 可以看到 I P及 TimeStamp 信息
+````
 
-Download：https://workflow.is/workflows/1178156c473b45cb9b10205b39e46faa
+* ###### Google
+````
+某些服务器/节点访问 Google 将会出现验证码，开启此功能为 Google 选择一个单独的节点
+````
 
+* ###### Netflix
+````
+某些服务器/节点不可以观看 Netflix，开启此功能为 Netflix 选择一个单独的节点
+````
 
-
+* ###### MytvSUPRE
+````
+某些服务器/节点不可以观看 MytvSUPRE，开启此功能为 MytvSUPRE 选择一个单独的节点
+````
 
     Surge 视频教程：https://youtu.be/IRJOAnPZWJM
 
@@ -212,3 +234,5 @@ Tutor | Raw |
 # License
 
 * 可以拷贝、转发，但是必须提供原作者信息，同时也不能将本项目用于商业用途。
+
+
