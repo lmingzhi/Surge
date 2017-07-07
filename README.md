@@ -2,7 +2,7 @@
 
 ### lhie1/Surge 简介
 
-`lhie1/Surge` 最早是基于 `[scomper/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8)` 定制修改而来，鄙人已维护两年有余。
+`lhie1/Surge` 最早是基于 [`scomper`/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来，鄙人已维护两年有余。
 
 ---
 * 支持应用
@@ -10,13 +10,15 @@
     * Shadowrocket
 * 导入方式
     * ~~URL（暂弃）~~
-    * Workflow(#workflow)
+    * [Workflow](#workflow)
     * [~~在线更新（暂弃）~~](https://github.com/lhie1/RuleList)
-* [可实现](#可实现)
+* [可实现功能](#可实现功能)
+* [Hosts](#hosts)
+* [Android ACL](#android-acl)
 
 ---
 
-### 实现功能
+### 可实现功能
 * 自动代理 / 全局代理
 * 解决本地 DNS 可能带来的干扰
 * 可突破部分内网限制（公司、学校）
@@ -48,24 +50,26 @@
     * 生成证书
 * [Rule OTA](#rule-ota)
     * [Special_Proxy](#special_proxy)
-        * AuthKey
-        * Google
-        * Netflix
-        * MytvSUPER
+        * [AuthKey](#authkey)
+        * [Google](#google)
+        * [Netflix](#netflix)
+        * [MytvSUPER](#mytvsuper)
     * Features_Module
-        * Adblocker
-        * TestFlight
-        * Emoji
+        * [Adblocker](#adblocker)
+        * [TestFlight](#testflinght)
+        * [Emoji](#emoji)
         * ~~Youku~~
     * 自动更新
     * 自动修复`module`模块地址
     * 生成规则
 
-#### [User Data](https://workflow.is/workflows/7100cebf06ad4adead9aac76e45e50b2)
+#### User Data：[下载地址](https://workflow.is/workflows/7100cebf06ad4adead9aac76e45e50b2)
 
-#### [Rule OTA](https://workflow.is/workflows/1178156c473b45cb9b10205b39e46faa)
+#### Rule OTA：[下载地址](https://workflow.is/workflows/1178156c473b45cb9b10205b39e46faa)
+
+---
+
 ##### Special_Proxy
-
 * ###### AuthKey
 ````
 1. 目前多个地方去广告等需要使用 AuthKey 进行认证，防止接口被拷贝盗用
@@ -90,21 +94,33 @@
 某些服务器/节点不可以观看 MytvSUPRE，开启此功能为 MytvSUPRE 选择一个单独的节点
 ````
 
-    Surge 视频教程：https://youtu.be/IRJOAnPZWJM
+##### Features_Module
+* ###### Adblocker
+````
+关闭此功能则不再屏蔽广告
+````
 
-    Shadowrocket 视频教程：https://youtu.be/nPFHi99PYww
+* ###### TestFlinght
+````
+开启此功能会在有只支持 TestFlinght 版本的规则时加载新规则
+````
 
-    PS：基于 爱兔联盟.com 提供的节点快速获取并使用
+* ###### Emoji
+````
+关闭此功能 [Proxy Group] 则不再使用 Emoji 表情
+````
 
+---
 
+### Hosts
+````
+https://async.be/Rule/Basic/Hosts
 
-    Hosts：https://async.be/Rule/Basic/Hosts
-    （免服务器 / 自动更新 ／ 支持 google、instagram、twitter 等主流外网）
+（免服务器 / 自动更新 ／ 支持 google、instagram、twitter 等主流外网）
+````
+   
 
-    Telegram：http://t.me/RuleNews
-    （更新日志 / 新内容发布 ／ 更方便快捷获取更新内容 ／ 进阶功能教程）
-
-🤖️ Android SSR ACL
+### Android SSR ACL
 
     ACL4SSR：https://github.com/ACL4SSR/ACL4SSR
 
