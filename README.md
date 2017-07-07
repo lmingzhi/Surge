@@ -144,6 +144,18 @@
 ````
 ---
 
+### line
+
+微博：[lhie1](http://weibo.com/1748625493)
+
+墙洞（规则讨论/交流）：[https://telegram.me/lhie1x](https://telegram.me/lhie1x)
+
+规则更新通知（新特性/教程/说明）：[http://t.me/RuleNews](http://t.me/RuleNews)
+
+购买翻墙服务：[https://爱兔联盟.com](https://爱兔联盟.com)
+
+---
+
 ### Hosts
 ````
 https://async.be/Rule/Basic/Hosts
@@ -177,20 +189,6 @@ https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/backcn-banAD.acl
 ````
 Adguard：https://adguard.com/en/welcome.html
 ````
----
-
-### line
-
-````
-微博：[lhie1](http://weibo.com/1748625493)
-
-墙洞（规则讨论/交流）：[https://telegram.me/lhie1x](https://telegram.me/lhie1x)
-
-规则更新通知（新特性/教程/说明）：[http://t.me/RuleNews](http://t.me/RuleNews)
-
-购买翻墙服务：[https://爱兔联盟.com](https://爱兔联盟.com)
-````
-
 ---
 
 ### Q&A
