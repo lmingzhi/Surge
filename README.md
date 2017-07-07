@@ -2,7 +2,7 @@
 
 ### 简介
 
-`lhie1/Surge` 最早是基于 [`scomper`/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来，鄙人已维护两年有余。
+本项目最早是基于 [scomper/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来，现已形成独有风格。
 
 ---
 * [可实现功能](#可实现功能)
