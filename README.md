@@ -1,6 +1,6 @@
-# lhie1/Surge 用户手册
+# 用户手册
 
-### lhie1/Surge 简介
+### 简介
 
 `lhie1/Surge` 最早是基于 [`scomper`/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来，鄙人已维护两年有余。
 
