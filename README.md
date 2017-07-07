@@ -1,5 +1,22 @@
-# Surge.conf / Shadowrocket.conf
+# lhie1/Surge 用户手册
 
+### lhie1/Surge 简介
+
+`lhie1/Surge` 最早是基于 `[scomper/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8)` 定制修改而来，鄙人已维护两年有余。
+
+---
+* 支持应用
+    * Surge
+    * Shadowrocket
+* 导入方式
+    * ~~URL~~
+    * Workflow(#workflow)
+    * [~~在线更新（暂弃）~~](https://github.com/lhie1/RuleList)
+* [功能](#功能)
+
+---
+
+### 功能
 * 自动代理 / 全局代理
 * 解决本地 DNS 可能带来的干扰
 * 可突破部分内网限制（公司、学校）
@@ -16,11 +33,39 @@
 * Apple 服务加速（App Store、Apple Music、Apple流媒体、iCloud备份、iCloud Drive、iTunes 等）
 * 国外常用网站加速（Google/Youtube/Twitter/Facebook/instagram/wikipedia/Github 等）
 
-♻️ Download
+### Workflow
 
-    User Data：https://workflow.is/workflows/7100cebf06ad4adead9aac76e45e50b2
+* User Data
+    * 自定义[Proxy]节点
+    * 自动根据[Proxy]内容生成[Proxy Group]
+    * 自定义添加[Rule]规则
+    * 自定义添加[Host]规则
+    * 自定义添加[URL Rewrite]规则
+    * 自定义添加[SSID Setting]规则
+    * 自定义删除规则（All）
+* Rule OTA
+    * Special_Proxy
+        * AuthKey
+        * Google
+        * Netflix
+        * MytvSUPER
+    * Features_Module
+        * Adblocker
+        * TestFlight
+        * Emoji
+    * 自动更新
+    * 自动修复 module 模块
+    * 生成规则
 
-    Rule OTA：https://workflow.is/workflows/c4dc05309bd04bb1a69b273cf6bbb9c4
+#### User Data
+
+Download：https://workflow.is/workflows/7100cebf06ad4adead9aac76e45e50b2
+
+#### Rule OTA
+
+Download：https://workflow.is/workflows/1178156c473b45cb9b10205b39e46faa
+
+
 
 
     Surge 视频教程：https://youtu.be/IRJOAnPZWJM
@@ -39,7 +84,7 @@
 
 🤖️ Android SSR ACL
 
-	ACL4SSR：https://github.com/ACL4SSR/ACL4SSR
+    ACL4SSR：https://github.com/ACL4SSR/ACL4SSR
 
 🈲️ 浏览器广告
 
@@ -69,7 +114,7 @@ Tutor | Raw |
 
 ### ☁️ Proxy & 🔰 Proxy & 🍎 Proxy
 
-	☁️ Proxy：管控国外的流量；🌍 Direct - 直连，不可访问外网；代理服务器 - 可访问外网
+    ☁️ Proxy：管控国外的流量；🌍 Direct - 直连，不可访问外网；代理服务器 - 可访问外网
 
     🔰 Proxy：管控国内的流量；🌍 Direct - 智能分流 (Pac)；☁️ Proxy - 全局代理
 
