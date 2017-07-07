@@ -12,6 +12,7 @@
     	* [User Data](#user-data)
     	* [Rule OTA](#rule-ota)
     * [~~在线更新（暂弃）~~](https://github.com/lhie1/RuleList)
+* [MitM 证书的安装及信任](mitm-证书的安装及信任)
 * [Hosts](#hosts)
 * [Android SSR ACL](#android-ssr-acl)
 * [浏览器广告](#浏览器广告)
@@ -24,6 +25,7 @@
 	* [📶 Surge for iOS 开启共享模式](#-surge-开启共享模式)
 	* [🏃 Auto](#-auto)
 * [客户端](#客户端有r标示表示支持-ssr)
+* [配置文件样例](#配置文件样例)
 * [鸣谢](#鸣谢)
 * [License](#license)
 
@@ -83,8 +85,8 @@
 
 ---
 
-##### Special_Proxy
-* ###### AuthKey
+#### Special_Proxy
+* ##### AuthKey
 ````
 1. 目前多个地方去广告等需要使用 AuthKey 进行认证，防止接口被拷贝盗用
 2. 使用过程中需要对生成 AuthKey 的 IP 地址进行认证，所以需要选择代理服务器生成，避免直连情况下的 IP 地址的频繁变换导致认证失败
@@ -93,39 +95,53 @@
 5. 网络请求 Header 可以看到 I P及 TimeStamp 信息
 ````
 
-* ###### Google
+* ##### Google
 ````
 某些服务器/节点访问 Google 将会出现验证码，开启此功能为 Google 选择一个单独的节点
 ````
 
-* ###### Netflix
+* ##### Netflix
 ````
 某些服务器/节点不可以观看 Netflix，开启此功能为 Netflix 选择一个单独的节点
 ````
 
-* ###### MytvSUPRE
+* ##### MytvSUPRE
 ````
 某些服务器/节点不可以观看 MytvSUPRE，开启此功能为 MytvSUPRE 选择一个单独的节点
 ````
 
 ---
 
-##### Features_Module
-* ###### Adblocker
+#### Features_Module
+* ##### Adblocker
 ````
-关闭此功能则不再屏蔽广告
+关闭此功能将不再屏蔽广告
 ````
 
-* ###### TestFlinght
+* ##### TestFlinght
 ````
 开启此功能会在有只支持 TestFlinght 版本的规则时加载新规则
 ````
 
-* ###### Emoji
+* ##### Emoji
 ````
 关闭此功能 [Proxy Group] 则不再使用 Emoji 表情
 ````
 
+---
+
+### MitM 证书的安装及信任
+````
+简介：MitM（即 Man-in-the-middle attack 简称 MitM，用于解密 HTTPS 的流量）
+
+安装：
+* Surge：配置 - 编辑配置 - HTTPS 解密 - 安装证书
+* Shadowrocket：设置 - 证书 - 安装证书
+
+信任：
+设置 - 通用 - 关于本机 - 证书信任设置 - 信任
+
+````
 ---
 
 ### Hosts
@@ -274,6 +290,164 @@ SSR for Android：https://yhyy135.github.io/how-to-use-ssr-android/
 Specht Lite for macOS：http://www.jianshu.com/p/2acfcbfee27f
 ````
 
+---
+###配置文件样例
+````
+# Surge Config Example (Chinese)
+# Version 2.0
+
+[General]
+# 日志等级: warning, notify, info, verbose (默认值: notify)
+loglevel = notify
+# 跳过某个域名或者 IP 段，这些目标主机将不会由 Surge Proxy 处理。(在 macOS 
+# 版本中，如果启用了 Set as System Proxy,  那么这些值会被写入到系统网络代理
+# 设置中.)
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+# 强制使用特定的 DNS 服务器
+dns-server = 8.8.8.8, 8.8.4.4
+# 允许外部控制器访问 Surge， 如 Surge-CLI。
+external-controller-access = apassword@127.0.0.1:8888
+
+# 以下参数仅供 iOS 版本使用
+# 将系统相关请求交给 Surge TUN 处理，并自动追加规则 
+# "IP-CIDR,17.0.0.0/8,DIRECT,no-resolve"
+bypass-system = true
+# 将特定 IP 段跳过 Surge TUN，详见 Manual
+bypass-tun = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+# 是否启动完整的 IPv6 支持 (默认值: false)
+ipv6 = false
+
+# 以下参数仅供 macOS 版本使用
+# 监听地址 (默认值: 127.0.0.1)
+interface = 0.0.0.0
+# HTTP 服务端口 (默认值: 6152)
+port = 6152
+# SOCKS5 监听地址 (默认值: 127.0.0.1)
+socks-interface = 0.0.0.0
+# SOCKS5 服务端口 (默认值: 6153)
+socks-port = 6153
+
+# 该段定义可用的代理策略
+# 针对所有类型代理的选项:
+#   interface: 可选 (默认值: null)
+#   强制使用特定的出口地址或网络设备 (仅 macOS 版可用)
+#   例如: ProxyHTTP = http, 1.2.3.4, 443, username, password, interface = en2
+#        en1 = direct, interface = en1
+# 针对启用了 TLS 的代理的选项:
+#   skip-common-name-verify: "true" 或 "false" (默认值: false)
+#   如果启动该选择, Surge 不会校验证书名是否符合.
+[Proxy]
+ProxyHTTP = http, 1.2.3.4, 443, username, password, skip-common-name-verify=false
+ProxyHTTPS = http, 1.2.3.4, 443, username, password, tls=true // 等价于 "https, 1.2.3.4, 443, username, password"
+ProxySOCKS5 = socks5, 1.2.3.4, 443, username, password
+ProxySOCKS5TLS = socks5, 1.2.3.4, 443, username, password, tls=true
+
+# 该段定义可用的策略组
+# 一个策略组可以包括多个子策略. 
+# 子策略可以是一个代理策略，或者另一个策略组，或者是一个内置策略 (DIRECT 或 REJECT).
+# 有 3 种策略组类型: "select", "url-test" 和 "ssid"
+# select: 具体哪个子策略将被使用，由用户界面上进行选择。
+# url-test: 具体哪个子策略将被使用，通过测试到具体 URL 的访问速度选择
+#   参数:
+#   url: 必填
+#   测试时用到的目标 URL.
+#   interval: 可选, 秒 (默认值: 600s)
+#   指定在多长时间后，上次的测试结果将被抛弃。
+#   tolerance: 可选, 毫秒 (默认值: 100ms)
+#   只有当新的优选线路，比原优选线路的响应时间，大于该值的时候，才会触发线路变更。
+#   timeout: 可选, 秒 (默认值: 5s)
+#   如果某策略在该时间后依然没有完成，放弃该策略。
+# ssid: 具体哪个子策略将被使用，根据 Wi-FI 的 SSID 决定
+#   参数:
+#   default: 必填
+#   默认策略。
+#   cellular: 可选
+#   在数据网络下的策略。 若不填，那么默认策略将被使用。
+[Proxy Group]
+SelectGroup = select, ProxyHTTP, ProxyHTTPS, DIRECT, REJECT
+AutoTestGroup = url-test, ProxySOCKS5, ProxySOCKS5TLS, url = http://www.google.com/generate_204
+SSIDGroup = ssid, default = ProxyHTTP, cellular = ProxyHTTP, SSIDName = ProxySOCKS5
+
+# 该段定义请求处理规则
+# 一个规则有三个基础部分:
+#          类型,          值,            策略
+# 比如:     DOMAIN-SUFFIX,apple.com,     DIRECT
+#          IP-CIDR,      192.168.0.0/16,ProxyA
+# 有 3 种基于域名的规则: "DOMAIN", "DOMAIN-SUFFIX" 和 "DOMAIN-KEYWORD"
+#   参数:
+#   force-remote-dns: 可选 (默认值: false)
+#   如果某请求被该规则匹配, 且策略不是DIRECT. 那么 DNS 查询将永远在远端代理服务
+#   器执行, 即使该请求由 Surge TUN 处理. 
+#   更多信息请参见手册.
+# 有 2 种基于 IP 的规则: "IP-CIDR" and "GEOIP".
+# 如果是一个使用域名进行访问的请求，那么 Surge 将进行 DNS 查询以确认是否应该被
+# 该规则匹配. 若 DNS 查询失败，将放弃规则匹配过程并直接给出错误。
+#   OPTIONS:
+#   no-resolve: 可选 (默认值: false)
+#   如果是一个使用域名进行访问的请求，跳过该条规则，不触发 DNS 查询。
+[Rule]
+DOMAIN-SUFFIX,appldnld.apple.com,DIRECT
+DOMAIN-SUFFIX,adcdownload.apple.com,DIRECT
+DOMAIN-SUFFIX,swcdn.apple.com,DIRECT
+DOMAIN-SUFFIX,phobos.apple.com,DIRECT
+
+DOMAIN-KEYWORD,google,ProxyHTTP,force-remote-dns
+DOMAIN-KEYWORD,facebook,SelectGroup
+DOMAIN-KEYWORD,blogspot,AutoTestGroup
+DOMAIN-KEYWORD,youtube,SSIDGroup
+
+DOMAIN-SUFFIX,apple.com,ProxyHTTPS
+DOMAIN-SUFFIX,ad.com,REJECT
+
+IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+
+GEOIP,CN,DIRECT
+FINAL,ProxyHTTP
+
+# 该段定义本地 DNS 记录
+# 该功能等同于 /etc/hosts，加上了泛解析和别名支持。
+[Host]
+abc.com = 1.2.3.4
+*.dev = 6.7.8.9
+foo.com = bar.com
+bar.com = server:8.8.8.8
+computer = server:system
+
+# 该段定义针对 HTTP 请求的 URL 重定向规则
+# 有两种重定向方式: "header" 和 "302"
+# 
+# Header 模式
+# Surge 会修改发出的 http header，必要时还会修改 Host 字段。客户端将
+# 感知不到这个重定向过程. 不支持重定向到一个 HTTPS 的地址。
+# 
+# 302 模式
+# Surge 直接简单的返回一个 302 重定向回应。
+[URL Rewrite]
+^http://www.google.cn http://www.google.com header
+^http://yachen.com https://yach.me 302
+
+# 该段仅在 iOS 版本下生效。 
+# 你可以为某些特定的 WiFi 网络设置设置参数
+# 参数:
+# suspend: "true" 或 "false"
+# 在该网络下 Surge 将暂停工作。 请注意，如果你在该网络下直接启动 Surge，那么 
+# Surge 依然会工作。只有当从其他网络切换到该网络时，Surge 才会暂停。
+[SSID Setting]
+"SSID Here" suspend=true
+
+# 详细使用方法请参见使用手册: http://manual.nssurge.com/mitm.html
+[MITM]
+enable = true
+# Surge 仅会对在此定义的主机名进行 HTTPS 解密，允许使用 * 通配符。
+# 某些应用会使用加强的安全策略，仅允许特定的服务器证书或者 CA。启动 MitM 可能
+# 导致这些应用出现问题。
+hostname = *google.com
+ca-p12 = MIIJtQ.........
+ca-passphrase = password
+````
 ---
         
 ### 鸣谢
