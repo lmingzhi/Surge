@@ -12,11 +12,13 @@
 * 导入方式
     * ~~URL（暂弃）~~
     * [Workflow](#workflow)
-    	* [User Data](##user-data下载地址)
-    	* [Rule OTA](##rule-ota下载地址)
+    	* [User Data](##user-data)
+    	* [Rule OTA](##rule-ota)
     * [~~在线更新（暂弃）~~](https://github.com/lhie1/RuleList)
 * [Hosts](#hosts)
-* [Android ACL](#android-acl)
+* [Android SSR ACL](#android-ssr-acl)
+* [浏览器广告](#浏览器广告)
+* [Line](#line)
 
 ---
 
@@ -65,9 +67,11 @@
     * 自动修复`module`模块地址
     * 生成规则
 
-#### User Data：[下载地址](https://workflow.is/workflows/7100cebf06ad4adead9aac76e45e50b2)
+#### User Data
+[下载地址](https://workflow.is/workflows/7100cebf06ad4adead9aac76e45e50b2)
 
-#### Rule OTA：[下载地址](https://workflow.is/workflows/1178156c473b45cb9b10205b39e46faa)
+#### Rule OTA
+[下载地址](https://workflow.is/workflows/1178156c473b45cb9b10205b39e46faa)
 
 ---
 
@@ -120,39 +124,52 @@ https://async.be/Rule/Basic/Hosts
 
 （免服务器 / 自动更新 ／ 支持 google、instagram、twitter 等主流外网）
 ````
-   
+---
 
 ### Android SSR ACL
+````
+项目主页：https://github.com/ACL4SSR/ACL4SSR
 
-    ACL4SSR：https://github.com/ACL4SSR/ACL4SSR
+1. banAD.acl（默认代理）去广告+局域网直连+国内IP段直连+国内常用域名直连+国外代理
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
+	
+2. gfwlist-banAD.acl（默认直连）去广告+局域网直连+国外gfwlist列表代理
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
+	 
+3. onlybanAD.acl（默认代理）去广告+局域网直连+全局代理
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
+	
+4. fullgfwlist.acl（默认直连）国外gfwlist列表代理，没有去广告，没有白名单（原版SS可直接复制文件内容使用）
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/fullgfwlist.acl
+	
+5. backcn-banAD.acl（默认直连）去广告+国内IP段代理+国内常用域名代理+局域网直连+国外直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/backcn-banAD.acl
+````
+---
 
-🈲️ 浏览器广告
+### 浏览器广告
+````
+Adguard：https://adguard.com/en/welcome.html
+````
+---
 
-    全平台：Adguard - https://adguard.com/en/welcome.html
+### Line
 
+````
+微博：[lhie1](http://weibo.com/1748625493)
 
+墙洞（规则讨论/交流）：[https://telegram.me/lhie1x](https://telegram.me/lhie1x)
 
-# line
+规则更新通知（新特性/教程/说明）：[http://t.me/RuleNews](http://t.me/RuleNews)
 
-About | Link |
----------|:---------:
-新浪微博 | [@lhie1](http://www.weibo.com/1748625493)
-Telegram 讨论组| https://telegram.me/lhie1x
-Telegram 通知频道| http://t.me/RuleNews
-购买翻墙服务| [爱兔联盟（通往新宇宙的船票）](https://爱兔联盟.com)
+购买翻墙服务：[https://爱兔联盟.com](https://爱兔联盟.com)
+````
 
-Tutor | Raw |
----------|:---------:
-@Eval | https://twitter.com/OAuth4
-@Scomper| https://medium.com/@scomper
-@Neurogram| http://www.taguage.com/user?id=181456
-@suisr9255| -
-@Hackl0us| https://github.com/Hackl0us
+---
 
+### Q&A
 
-# Q&A
-
-### ☁️ Proxy & 🔰 Proxy & 🍎 Proxy
+#### ☁️ Proxy & 🔰 Proxy & 🍎 Proxy
 
     ☁️ Proxy：管控国外的流量；🌍 Direct - 直连，不可访问外网；代理服务器 - 可访问外网
 
@@ -163,7 +180,7 @@ Tutor | Raw |
     建议 ： ☁️ Proxy - 代理服务器；🔰 Proxy - 🌍 Direct ；🍎 Proxy - 🌍 Direct/代理服务器
 
 
-#### 🚀 SSR 混淆模式 https://github.com/breakwa11/shadowsocks-rss/blob/master/ssr.md
+#### 🚀 [混淆模式](https://github.com/breakwa11/shadowsocks-rss/blob/master/ssr.md)
 
     理论上开启混淆模式的时候可以利用混淆做到乱序大小的发送和接收，至少可以在某种程度上可以避开GFW的探测，那就应当会获得更好的速度、稳定性以及安全性。
 
@@ -178,79 +195,83 @@ Tutor | Raw |
     启用 Surge for Mac 后勾选下拉菜单中的 Set as System Proxy 即可自动向系统网络设置添加必要的参数，因为需要修改系统网络设置，首次勾选时需要输入管理员密码进行确认，去掉 Set as System Proxy 的勾选，会清除网络设置中的代理相关设置。
 
 
-#### 📶 Surge for iOS 开启共享模式 https://medium.com/@scomper/局域网其他设备共享上网-dd29e18853da#.6w19tdsh9
+#### 📶 [Surge for iOS 开启共享模式](https://medium.com/@scomper/局域网其他设备共享上网-dd29e18853da#.6w19tdsh9)
 
-    Surge 在增加了代理共享模式，只需要开启就能让 Wi-Fi 网络中的其他设备通过这台 iPhone 代理访问网络。
-    到高级设置中开启 Allow Wi-Fi Access ，或者直接修改配置文件，添加一行参数 allow-wifi-access = true。
+    Surge 在增加了代理共享模式，只需要开启就能让 Wi-Fi 网络中的其他设备通过这台 iPhone 代理访问网络
+    到高级设置中开启 Allow Wi-Fi Access ，或者直接修改配置文件，添加一行参数 allow-wifi-access = true
 
-    其他 Wi-Fi 网络环境下的设备可以输入已经开启共享代理的 Surge 设备的 IP 地址和端口号，（技巧：Surge Log 中能看到开启后本机的 IP 地址和监听端口）将 IP 地址填写到需要共享设备的 Wi-Fi 信息的 HTTP 代理里即可。
+    其他 Wi-Fi 网络环境下的设备可以输入已经开启共享代理的 Surge 设备的 IP 地址和端口号，（技巧：Surge Log 中能看到开启后本机的 IP 地址和监听端口）将 IP 地址填写到需要共享设备的 Wi-Fi 信息的 HTTP 代理里即可
 
 
-#### 🏃 Auto / Benchmarik
+#### 🏃 Auto
 
     测试结果仅供参考，无法检测出 VPS 的带宽
 
-    请不要使用 google.com 作为测试目标，有可能导致 proxy 服务器 ip 被加入黑名单，导致各种操作需要输入验证码。
-    目标 URL 对所有的 policy 是基本公平的，所以请选择像 gstatic.com 这样的在全球都有节点的 URL 作为测试目标。
+    请不要使用 google.com 作为测试目标，有可能导致 proxy 服务器 ip 被加入黑名单，导致各种操作需要输入验证码
+    目标 URL 对所有的 policy 是基本公平的，所以请选择像 gstatic.com 这样的在全球都有节点的 URL 作为测试目标
     作者建议：http://www.gstatic.com/generate_204
 
+#### 客户端（有“R”标示表示支持 SSR）：
+````
+• iOS
 
+Surge：https://appsto.re/cn/D0Q_9.i
 
-# more
+Shadowrocket (R)：https://appsto.re/cn/UDjM3.i
+        
+• Android
 
-🔰 客户端（有“R”标示表示支持 SSR）：
+ShadowsocksR (R)：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
-    * iOS
+Postern (R)：http://www.tunnel-workshop.com
+
+• macOS
+
+ShadowsocksX：https://github.com/shadowsocks/shadowsocks-iOS/releases
+
+ShadowsocksX-R (R)：https://github.com/yichengchen/ShadowsocksX-R/releases
+
+ShadowsocksX-NG (R)：https://github.com/qinyuhang/ShadowsocksX-NG/releases
+        
+Flora：https://github.com/huacnlee/flora-kit
+
+Specht Lite：https://github.com/zhuhaow/SpechtLite/releases
+        
+Surge：http://nssurge.com
+
+• Windows
     
-        Surge：https://appsto.re/cn/D0Q_9.i
-        
-        Shadowrocket (R)：https://appsto.re/cn/UDjM3.i
-        
-        Wingy (R)：https://appsto.re/cn/19xBeb.i
-        
-        Potatso (R)：https://appsto.re/cn/OIk1_.i
-        
-    * Android
-    
-        ShadowsocksR (R)：https://github.com/shadowsocksr/shadowsocksr-android/releases
-        
-        Postern (R)：http://www.tunnel-workshop.com
-        
-    * macOS
-    
-        ShadowsocksX：https://github.com/shadowsocks/shadowsocks-iOS/releases
+ShadowsocksR (R)：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
+````
 
-        ShadowsocksX-R (R)：https://github.com/yichengchen/ShadowsocksX-R/releases
-
-        ShadowsocksX-NG (R)：https://github.com/qinyuhang/ShadowsocksX-NG/releases
-        
-        Flora：https://github.com/huacnlee/flora-kit
-
-        Specht Lite：https://github.com/zhuhaow/SpechtLite/releases
-        
-        Surge：http://nssurge.com
-        
-    * Windows
-    
-        ShadowsocksR (R)：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
-        
+---
 
 📋 教程 / 说明：
+````
+Surge for iOS：https://medium.com/@scomper/surge-配置文件-a1533c10e80b#.9fpdjn34f
+    
+Surge for macOS：https://medium.com/@scomper/surge-for-mac-简明指南-f6f357b8f09c#.n55zdnvnd
+    
+Shadowrocket for iOS：http://matrix.sspai.com/p/c113cba0
+    
+SSR for Windows：https://ocvpn.wordpress.com/2016/10/15/shadowsocksr-for-windows设置教程
+    
+SSR for Android：https://yhyy135.github.io/how-to-use-ssr-android/
+    
+Specht Lite for macOS：http://www.jianshu.com/p/2acfcbfee27f
+````
 
-        Surge for iOS：https://medium.com/@scomper/surge-配置文件-a1533c10e80b#.9fpdjn34f
-    
-        Surge for macOS：https://medium.com/@scomper/surge-for-mac-简明指南-f6f357b8f09c#.n55zdnvnd
-    
-        Shadowrocket for iOS：http://matrix.sspai.com/p/c113cba0
-    
-        SSR for Windows：https://ocvpn.wordpress.com/2016/10/15/shadowsocksr-for-windows设置教程
-    
-        SSR for Android：https://yhyy135.github.io/how-to-use-ssr-android/
-    
-        SpechtLite for macOS：http://www.jianshu.com/p/2acfcbfee27f
+---
+        
+### 鸣谢
+[@Eval](https://twitter.com/OAuth4)
+[@Scomper](https://medium.com/@scomper)
+[@Neurogram](http://www.taguage.com/user?id=181456)
+@suisr9255
+[@Hackl0us](https://github.com/Hackl0us)
 
-# License
+---
 
+### License
 * 可以拷贝、转发，但是必须提供原作者信息，同时也不能将本项目用于商业用途。
-
 
