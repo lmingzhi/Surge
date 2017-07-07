@@ -70,8 +70,9 @@
         * [TestFlight](#testflinght)
         * [Emoji](#emoji)
         * ~~Youku~~
-    * 自动更新
+    * 运行时检查更新并自动下载
     * 自动修复`module`模块地址
+    * 更新规则
     * 生成规则
 
 #### User Data
