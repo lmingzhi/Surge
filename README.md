@@ -5,9 +5,6 @@
 `lhie1/Surge` 最早是基于 [`scomper`/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来，鄙人已维护两年有余。
 
 ---
-* 支持应用
-    * Surge
-    * Shadowrocket
 * [可实现功能](#可实现功能)
 * 导入方式
     * ~~URL（暂弃）~~
@@ -18,7 +15,17 @@
 * [Hosts](#hosts)
 * [Android SSR ACL](#android-ssr-acl)
 * [浏览器广告](#浏览器广告)
-* [Line](#line)
+* [line](#line)
+* [Q&A](#qa)
+	* [☁️ Proxy & 🔰 Proxy & 🍎 Proxy](#%EF%B8%8F-proxy---proxy---proxy)
+	* [🚀 混淆模式](#-混淆模式)
+	* [🔋 Surge 耗电](#-surge-耗电)
+	* [☑️ Set as System Proxy](#%EF%B8%8F-set-as-systemproxy)
+	* [📶 Surge for iOS 开启共享模式](#-surge-开启共享模式)
+	* [🏃 Auto](#-auto)
+* [客户端](#客户端有r标示表示支持-ssr)
+* [鸣谢](#鸣谢)
+* [License](#license)
 
 ---
 
@@ -43,7 +50,7 @@
 
 ### Workflow
 
-* [User Data](##user-data下载地址)
+* [User Data](##user-data)
     * 自定义[Proxy]节点
     * 自动根据[Proxy]内容生成[Proxy Group]
     * 自定义添加[Rule]规则
@@ -52,7 +59,7 @@
     * 自定义添加[SSID Setting]规则
     * 自定义删除规则（All）
     * 生成证书
-* [Rule OTA](##rule-ota下载地址)
+* [Rule OTA](##rule-ota)
     * [Special_Proxy](#special_proxy)
         * [AuthKey](#authkey)
         * [Google](#google)
@@ -153,7 +160,7 @@ Adguard：https://adguard.com/en/welcome.html
 ````
 ---
 
-### Line
+### line
 
 ````
 微博：[lhie1](http://weibo.com/1748625493)
@@ -170,46 +177,49 @@ Adguard：https://adguard.com/en/welcome.html
 ### Q&A
 
 #### ☁️ Proxy & 🔰 Proxy & 🍎 Proxy
+````
+☁️ Proxy：管控国外的流量；🌍 Direct - 直连，不可访问外网；代理服务器 - 可访问外网
 
-    ☁️ Proxy：管控国外的流量；🌍 Direct - 直连，不可访问外网；代理服务器 - 可访问外网
+🔰 Proxy：管控国内的流量；🌍 Direct - 智能分流 (Pac)；☁️ Proxy - 全局代理
 
-    🔰 Proxy：管控国内的流量；🌍 Direct - 智能分流 (Pac)；☁️ Proxy - 全局代理
+🍎 Proxy： 管控苹果的流量；如果苹果某些服务直连困难，设其为代理，可能会改善一些问题：🍎 Proxy - 代理服务器
 
-    🍎 Proxy： 管控苹果的流量；如果苹果某些服务直连困难，设其为代理，可能会改善一些问题：🍎 Proxy - 代理服务器
-
-    建议 ： ☁️ Proxy - 代理服务器；🔰 Proxy - 🌍 Direct ；🍎 Proxy - 🌍 Direct/代理服务器
-
+建议 ： ☁️ Proxy - 代理服务器；🔰 Proxy - 🌍 Direct ；🍎 Proxy - 🌍 Direct/代理服务器
+````
 
 #### 🚀 [混淆模式](https://github.com/breakwa11/shadowsocks-rss/blob/master/ssr.md)
+````
+理论上开启混淆模式的时候可以利用混淆做到乱序大小的发送和接收，至少可以在某种程度上可以避开 GFW 的探测，那就应当会获得更好的速度、稳定性以及安全性。
+````
 
-    理论上开启混淆模式的时候可以利用混淆做到乱序大小的发送和接收，至少可以在某种程度上可以避开GFW的探测，那就应当会获得更好的速度、稳定性以及安全性。
-
-
-#### 🔋 Surge for iOS 耗电
-
-    Surge 会接管全局的（几乎）所有通信，所以所有的网络方面电量消耗都会被算在 Surge 头上，实际使用中不会感到 Surge 对电量有明显影响。
-
+#### 🔋 Surge 耗电
+````
+Surge 会接管全局的（几乎）所有通信，所以所有的网络方面电量消耗都会被算在 Surge 头上，实际使用中不会感到 Surge 对电量有明显影响。
+````
 
 #### ☑️ Set as System Proxy
+````
+启用 Surge for Mac 后勾选下拉菜单中的 Set as System Proxy 即可自动向系统网络设置添加必要的参数，因为需要修改系统网络设置，首次勾选时需要输入管理员密码进行确认，去掉 Set as System Proxy 的勾选，会清除网络设置中的代理相关设置
+````
 
-    启用 Surge for Mac 后勾选下拉菜单中的 Set as System Proxy 即可自动向系统网络设置添加必要的参数，因为需要修改系统网络设置，首次勾选时需要输入管理员密码进行确认，去掉 Set as System Proxy 的勾选，会清除网络设置中的代理相关设置。
+#### 📶 [Surge 开启共享模式](https://medium.com/@scomper/局域网其他设备共享上网-dd29e18853da#.6w19tdsh9)
+````
+Surge 在增加了代理共享模式，只需要开启就能让 Wi-Fi 网络中的其他设备通过这台 iPhone 代理访问网络
 
+到高级设置中开启 Allow Wi-Fi Access ，或者直接修改配置文件，添加一行参数 allow-wifi-access = true
 
-#### 📶 [Surge for iOS 开启共享模式](https://medium.com/@scomper/局域网其他设备共享上网-dd29e18853da#.6w19tdsh9)
-
-    Surge 在增加了代理共享模式，只需要开启就能让 Wi-Fi 网络中的其他设备通过这台 iPhone 代理访问网络
-    到高级设置中开启 Allow Wi-Fi Access ，或者直接修改配置文件，添加一行参数 allow-wifi-access = true
-
-    其他 Wi-Fi 网络环境下的设备可以输入已经开启共享代理的 Surge 设备的 IP 地址和端口号，（技巧：Surge Log 中能看到开启后本机的 IP 地址和监听端口）将 IP 地址填写到需要共享设备的 Wi-Fi 信息的 HTTP 代理里即可
-
+其他 Wi-Fi 网络环境下的设备可以输入已经开启共享代理的 Surge 设备的 IP 地址和端口号，（技巧：Surge Log 中能看到开启后本机的 IP 地址和监听端口）将 IP 地址填写到需要共享设备的 Wi-Fi 信息的 HTTP 代理里即可
+````
 
 #### 🏃 Auto
+````
+测试结果仅供参考，无法检测出 VPS 的带宽
 
-    测试结果仅供参考，无法检测出 VPS 的带宽
-
-    请不要使用 google.com 作为测试目标，有可能导致 proxy 服务器 ip 被加入黑名单，导致各种操作需要输入验证码
-    目标 URL 对所有的 policy 是基本公平的，所以请选择像 gstatic.com 这样的在全球都有节点的 URL 作为测试目标
-    作者建议：http://www.gstatic.com/generate_204
+请不要使用 google.com 作为测试目标，有可能导致 proxy 服务器 ip 被加入黑名单，导致各种操作需要输入验证码
+目标 URL 对所有的 policy 是基本公平的，所以请选择像 gstatic.com 这样的在全球都有节点的 URL 作为测试目标
+作者建议：http://www.gstatic.com/generate_204
+````
+---
 
 #### 客户端（有“R”标示表示支持 SSR）：
 ````
@@ -264,11 +274,11 @@ Specht Lite for macOS：http://www.jianshu.com/p/2acfcbfee27f
 ---
         
 ### 鸣谢
-[@Eval](https://twitter.com/OAuth4)
-[@Scomper](https://medium.com/@scomper)
-[@Neurogram](http://www.taguage.com/user?id=181456)
-@suisr9255
-[@Hackl0us](https://github.com/Hackl0us)
+* [@Eval](https://twitter.com/OAuth4)
+* [@Scomper](https://medium.com/@scomper)
+* [@Neurogram](http://www.taguage.com/user?id=181456)
+* @suisr9255
+* [@Hackl0us](https://github.com/Hackl0us)
 
 ---
 
