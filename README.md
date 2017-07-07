@@ -12,11 +12,11 @@
     	* [User Data](#user-data)
     	* [Rule OTA](#rule-ota)
     * [~~在线更新（暂弃）~~](https://github.com/lhie1/RuleList)
-* [MitM 证书的安装及信任](mitm-证书的安装及信任)
-* [Hosts](#hosts)
+* [MitM 证书的安装及信任](#mitm证书的安装及信任)
+* [Hosts（免服务器翻墙）](#hosts)
 * [Android SSR ACL](#android-ssr-acl)
 * [浏览器广告](#浏览器广告)
-* [line](#line)
+* [联系方式](#line)
 * [Q&A](#qa)
 	* [☁️ Proxy & 🔰 Proxy & 🍎 Proxy](#%EF%B8%8F-proxy---proxy---proxy)
 	* [🚀 混淆模式](#-混淆模式)
@@ -289,7 +289,7 @@ Specht Lite for macOS：http://www.jianshu.com/p/2acfcbfee27f
 ````
 
 ---
-###配置文件样例
+### 配置文件样例
 ````
 # Surge Config Example (Chinese)
 # Version 2.0
