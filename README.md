@@ -9,8 +9,8 @@
 * 导入方式
     * ~~URL（暂弃）~~
     * [Workflow](#workflow)
-    	* [User Data](##user-data)
-    	* [Rule OTA](##rule-ota)
+    	* [User Data](#user-data)
+    	* [Rule OTA](#rule-ota)
     * [~~在线更新（暂弃）~~](https://github.com/lhie1/RuleList)
 * [Hosts](#hosts)
 * [Android SSR ACL](#android-ssr-acl)
@@ -50,7 +50,7 @@
 
 ### Workflow
 
-* [User Data](##user-data)
+* [User Data](#user-data)
     * 自定义[Proxy]节点
     * 自动根据[Proxy]内容生成[Proxy Group]
     * 自定义添加[Rule]规则
@@ -59,7 +59,7 @@
     * 自定义添加[SSID Setting]规则
     * 自定义删除规则（All）
     * 生成证书
-* [Rule OTA](##rule-ota)
+* [Rule OTA](#rule-ota)
     * [Special_Proxy](#special_proxy)
         * [AuthKey](#authkey)
         * [Google](#google)
