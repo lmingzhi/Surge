@@ -8,11 +8,13 @@
 * 支持应用
     * Surge
     * Shadowrocket
+* [可实现功能](#可实现功能)
 * 导入方式
     * ~~URL（暂弃）~~
     * [Workflow](#workflow)
+    	* [User Data](##user-data下载地址)
+    	* [Rule OTA](##rule-ota下载地址)
     * [~~在线更新（暂弃）~~](https://github.com/lhie1/RuleList)
-* [可实现功能](#可实现功能)
 * [Hosts](#hosts)
 * [Android ACL](#android-acl)
 
@@ -39,7 +41,7 @@
 
 ### Workflow
 
-* [User Data](#user-data)
+* [User Data](##user-data下载地址)
     * 自定义[Proxy]节点
     * 自动根据[Proxy]内容生成[Proxy Group]
     * 自定义添加[Rule]规则
@@ -48,7 +50,7 @@
     * 自定义添加[SSID Setting]规则
     * 自定义删除规则（All）
     * 生成证书
-* [Rule OTA](#rule-ota)
+* [Rule OTA](##rule-ota下载地址)
     * [Special_Proxy](#special_proxy)
         * [AuthKey](#authkey)
         * [Google](#google)
