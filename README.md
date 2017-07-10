@@ -81,7 +81,7 @@
 [下载地址](https://workflow.is/workflows/ed57158e2d184c3d9116dadbd352ddbb)
 
 #### Rule OTA
-[下载地址](https://workflow.is/workflows/1178156c473b45cb9b10205b39e46faa)
+[下载地址](https://workflow.is/workflows/a70c1f75e37446cbb27d3045b7b57fe9)
 
 ---
 
