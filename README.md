@@ -9,8 +9,8 @@
 * 导入方式
     * [URL](#url)
     * [Workflow](#workflow)
-    	* [User Data](#user-data)
-    	* [Rule OTA](#rule-ota)
+    	* User Data
+    	* Rule OTA
     * [~~在线更新（暂弃）~~](https://github.com/lhie1/RuleList)
 * [MitM 证书的安装及信任](#mitm证书的安装及信任)
 * [Hosts（免服务器翻墙）](#hosts)
