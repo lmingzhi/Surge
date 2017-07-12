@@ -173,6 +173,10 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 购买翻墙服务：[https://爱兔联盟.com](https://爱兔联盟.com)
 
+可以坚持维护这么久离不开大家的鼓励与支持，如果帮助到您，可以考虑捐赠，谢谢。
+
+![Pay](https://raw.githubusercontent.com/lhie1/Surge/master/images/Pay.jpeg)
+
 ---
 
 ### Hosts
