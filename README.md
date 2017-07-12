@@ -7,7 +7,7 @@
 ---
 * [可实现功能](#可实现功能)
 * 导入方式
-    * ~~URL（暂弃）~~
+    * [URL](#url)
     * [Workflow](#workflow)
     	* [User Data](#user-data)
     	* [Rule OTA](#rule-ota)
@@ -47,6 +47,16 @@
 * 所有国内网站直线连接
 * Apple 服务加速（App Store、Apple Music、Apple流媒体、iCloud备份、iCloud Drive、iTunes 等）
 * 国外常用网站加速（Google/Youtube/Twitter/Facebook/instagram/wikipedia/Github 等）
+
+---
+
+### URL
+````
+Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge_Lite.conf
+
+Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket_Lite.conf
+````
+![URL](https://raw.githubusercontent.com/lhie1/Surge/master/images/URL.png)
 
 ---
 
