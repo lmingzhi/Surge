@@ -110,6 +110,11 @@
 某些服务器/节点不可以观看 MytvSUPRE，开启此功能为 MytvSUPRE 选择一个单独的节点
 ````
 
+* ##### Spotify
+````
+某些服务器/节点的 Spotify 的内容不同，开启此功能为 Spotify 选择一个单独的节点
+````
+
 ---
 
 #### Features_Module
