@@ -56,9 +56,9 @@ Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge_Lite.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket_Lite.conf
 ````
-![URL](https://raw.githubusercontent.com/lhie1/Surge/master/images/URL.jpeg)
-
 导入后请务必[安装证书](#mitm证书的安装及信任)
+
+![URL](https://raw.githubusercontent.com/lhie1/Surge/master/images/URL.jpeg)
 
 ---
 
@@ -173,7 +173,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 购买翻墙服务：[https://爱兔联盟.com](https://爱兔联盟.com)
 
-可以坚持维护这么久离不开大家的鼓励与支持，如果帮助到您，可以考虑捐赠，谢谢。
+长时间的维护和分享离不开大家的鼓励与支持，如果帮助到您，可以考虑捐赠，谢谢。
 
 ![Pay](https://raw.githubusercontent.com/lhie1/Surge/master/images/Pay.jpeg)
 
