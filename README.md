@@ -92,7 +92,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
     * [安装证书](#mitm证书的安装及信任)
 
 #### User Data
-[下载地址](https://workflow.is/workflows/21e4b8dfc5e54ae8938516284e6f3d45)
+[下载地址](https://workflow.is/workflows/6c05e2bb808a44bdb1d5337c07feff0b)
 
 #### Rule OTA
 [下载地址](https://workflow.is/workflows/a70c1f75e37446cbb27d3045b7b57fe9)
