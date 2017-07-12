@@ -56,7 +56,7 @@ Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge_Lite.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket_Lite.conf
 ````
-![URL](https://raw.githubusercontent.com/lhie1/Surge/master/images/URL.png)
+![URL](https://raw.githubusercontent.com/lhie1/Surge/master/images/URL.jpeg)
 
 ---
 
