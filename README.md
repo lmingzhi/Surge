@@ -78,7 +78,7 @@
     * 生成规则
 
 #### User Data
-[下载地址](https://workflow.is/workflows/ed57158e2d184c3d9116dadbd352ddbb)
+[下载地址](https://workflow.is/workflows/077f6ccffdc34717ac70d66c8e455c70)
 
 #### Rule OTA
 [下载地址](https://workflow.is/workflows/a70c1f75e37446cbb27d3045b7b57fe9)
