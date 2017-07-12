@@ -79,6 +79,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
         * [Google](#google)
         * [Netflix](#netflix)
         * [MytvSUPER](#mytvsuper)
+        * [Spotify](#spotify)
     * Features_Module
         * [Adblocker](#adblocker)
         * [TestFlight](#testflinght)
