@@ -150,17 +150,22 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 ---
 
 ### MitM 证书的安装及信任
-````
+
 简介：MitM（即 Man-in-the-middle attack 简称 MitM，用于解密 HTTPS 的流量）
 
-安装：
+````
+iOS：
+
+1. 安装：
 * Surge：配置 - 编辑配置 - HTTPS 解密 - 安装证书
 * Shadowrocket：设置 - 证书 - 安装证书
 
-信任：
+2. 信任：
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
 
 ````
+
+macOS：
 ![macOS_MitM](https://raw.githubusercontent.com/lhie1/Surge/master/images/macOS_MitM.jpg)
 
 ---
