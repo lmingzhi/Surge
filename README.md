@@ -161,6 +161,8 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
 
 ````
+![macOS_MitM](https://raw.githubusercontent.com/lhie1/Surge/master/images/macOS_MitM.jpg)
+
 ---
 
 ### line
