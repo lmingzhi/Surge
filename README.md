@@ -182,7 +182,7 @@ macOS：
 
 ### Workflow_Q&A
 
-![常见问题](https://raw.githubusercontent.com/lhie1/Surge/master/images/常见问题.JPG)
+![Workflow_Q&A](https://raw.githubusercontent.com/lhie1/Surge/master/images/Workflow_Q&A.JPG)
 
 1. 网络连接失败，切换节点或者更换网络环境
 2. 证书检查出错，[检查证书](#mitm证书的安装及信任)
