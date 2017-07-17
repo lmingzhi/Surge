@@ -12,7 +12,7 @@
     	* User Data
     	* Rule OTA
     * [~~在线更新（暂弃）~~](https://github.com/lhie1/RuleList)
-* [MitM 证书的安装及信任](#mitm证书的安装及信任)
+* [证书的安装及信任](#mitm)
 * [Hosts（免服务器翻墙）](#hosts)
 * [Android SSR ACL](#android-ssr-acl)
 * [浏览器广告](#浏览器广告)
@@ -158,9 +158,9 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 ---
 
-### MitM 证书的安装及信任
+### MitM
 
-简介：MitM（即 Man-in-the-middle attack 简称 MitM，用于解密 HTTPS 的流量）
+简介：MitM（即 Man-in-the-middle attack，用于解密 HTTPS 的流量）
 
 ````
 iOS：
