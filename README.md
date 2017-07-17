@@ -7,7 +7,7 @@
 ---
 * [可实现功能](#可实现功能)
 * 导入方式
-    * [URL](#url)
+    * [URL_Lite](#url)
     * [Workflow](#workflow)
     	* User Data
     	* Rule OTA
@@ -51,6 +51,10 @@
 ---
 
 ### URL
+
+精简版：
+
+用于`Surge/Shadowrcket_URL`导入方式，阉割了对`虾米音乐/优酷视频/百度翻译/Flex3`等广告的拦截，没有`Workflow`的节点定制以及功能开关
 ````
 Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge_Lite.conf
 
@@ -90,6 +94,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
     * 更新规则
     * 生成规则
     * [安装证书](#mitm证书的安装及信任)
+    * [常见问题](#常见问题)
 
 #### User Data
 [下载地址](https://workflow.is/workflows/7dee8634229d4a48b81d96c8c912d87b)
@@ -172,6 +177,16 @@ iOS：
 macOS：
 
 ![macOS_MitM](https://raw.githubusercontent.com/lhie1/Surge/master/images/macOS_MitM.jpg)
+
+---
+
+### 常见问题
+
+![常见问题](https://raw.githubusercontent.com/lhie1/Surge/master/images/常见问题.JPG)
+
+1. 网络连接失败，切换节点或者更换网络环境
+2. 证书检查出错，[检查证书](#mitm证书的安装及信任)
+3. 获取文件出错，更新[User](https://workflow.is/workflows/7dee8634229d4a48b81d96c8c912d87b)
 
 ---
 
