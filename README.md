@@ -84,7 +84,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
         * [Adblocker](#adblocker)
         * [TestFlight](#testflinght)
         * [Emoji](#emoji)
-        * ~~Youku~~
+        * [Youku](#youku)
     * 运行时检查更新并自动下载
     * 自动修复`module`模块地址
     * 更新规则
@@ -101,32 +101,31 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 #### Special_Proxy
 * ##### AuthKey
-````
-1. 目前多个地方去广告等需要使用 AuthKey 进行认证，防止接口被拷贝盗用
-2. 使用过程中需要对生成 AuthKey 的 IP 地址进行认证，所以需要选择代理服务器生成，避免直连情况下的 IP 地址的频繁变换导致认证失败
-3. AuthKey 字段为接口加密数据定位符,使用 OpenSSL RSA4096 加密生成的下载用户唯一权限标识符
-4. 无 AuthKey 将导致无法请求接口返回 400 错误，AuthKey 包含唯一信息,请求过多将导致 AuthKey 加入黑名单
-5. 网络请求 Header 可以看到 I P及 TimeStamp 信息
-````
+
+1. 目前多个地方`虾米音乐/优酷视频/百度翻译/Flex3`等屏蔽广告需要使用`AuthKey`进行认证，防止接口被拷贝盗用
+2. 使用过程中需要对生成`AuthKey`的`IP`地址进行认证，所以需要选择代理服务器生成，避免直连情况下的`IP`地址的频繁变换导致认证失败
+3. `AuthKey`字段为接口加密数据定位符,使用`OpenSSL RSA4096`加密生成的下载用户唯一权限标识符
+4. 无`AuthKey`将导致无法请求接口返回`400`错误，`AuthKey`包含唯一信息,请求过多将导致`AuthKey`加入黑名单
+5. 网络请求`Header`可以看到`IP`及`TimeStamp`信息
 
 * ##### Google
 ````
-某些服务器/节点访问 Google 将会出现验证码，开启此功能为 Google 选择一个单独的节点
+某些服务器/节点访问`Google`将会出现验证码，开启此功能为`Google`单独选择一个专用节点
 ````
 
 * ##### Netflix
 ````
-某些服务器/节点不可以观看 Netflix，开启此功能为 Netflix 选择一个单独的节点
+某些服务器/节点不可以观看`Netflix`，开启此功能为`Netflix`单独选择一个专用节点
 ````
 
 * ##### MytvSUPRE
 ````
-某些服务器/节点不可以观看 MytvSUPRE，开启此功能为 MytvSUPRE 选择一个单独的节点
+某些服务器/节点不可以观看`MytvSUPRE`，开启此功能为`MytvSUPRE`单独选择一个专用节点
 ````
 
 * ##### Spotify
 ````
-某些服务器/节点的 Spotify 的内容不同，开启此功能为 Spotify 选择一个单独的节点
+某些服务器/节点的`Spotify`的内容不同，开启此功能为`Spotify`单独选择一个专用节点
 ````
 
 ---
@@ -139,12 +138,17 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 * ##### TestFlinght
 ````
-开启此功能会在有只支持 TestFlinght 版本的规则时加载新规则
+开启此功能会在有只支持`TestFlinght`版本的规则时加载新规则
 ````
 
 * ##### Emoji
 ````
-关闭此功能 [Proxy Group] 则不再使用 Emoji 表情
+关闭此功能`[Proxy Group]`则不再使用`Emoji`表情
+````
+
+* ##### Youku
+````
+开启此功能将会屏蔽优酷视频广告（有可能会使视频加载时间过长或加载失败）
 ````
 
 ---
