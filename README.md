@@ -216,9 +216,9 @@ https://async.be/Rule/Basic/Hosts
 ---
 
 ### Android SSR ACL
-````
 项目主页：https://github.com/ACL4SSR/ACL4SSR
 
+````
 1. banAD.acl（默认代理）去广告+局域网直连+国内IP段直连+国内常用域名直连+国外代理
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
 	
