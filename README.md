@@ -244,6 +244,11 @@ Adguard：https://adguard.com/en/welcome.html
 
 ### Q&A
 
+#### ⛔️ 广告屏蔽
+````
+绝大多数广告在未开启 Surge/Shadowrocket 时已经缓存到本地，广告屏蔽非立即生效，一般清理缓存就可以，部分应用需要卸载重装。
+````
+
 #### ☁️ Proxy & 🔰 Proxy & 🍎 Proxy
 ````
 ☁️ Proxy：管控国外的流量；🌍 Direct - 直连，不可访问外网；代理服务器 - 可访问外网
