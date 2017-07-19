@@ -61,7 +61,7 @@ Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge_Lite.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket_Lite.conf
 ````
-导入后请务必[安装证书](#mitm证书的安装及信任)
+导入后请务必[安装证书](#mitm)
 
 ![URL](https://raw.githubusercontent.com/lhie1/Surge/master/images/URL.jpeg)
 
@@ -95,7 +95,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
     * 自动修复`module`模块地址
     * 更新规则
     * 生成规则
-    * [安装证书](#mitm证书的安装及信任)
+    * [安装证书](#mitm)
     * [常见问题](#workflow_qa)
 
 #### User Data
@@ -168,9 +168,8 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 简介：MitM（即 Man-in-the-middle attack，用于解密 HTTPS 的流量）
 
-````
 iOS：
-
+````
 1. 安装：
 * Surge：配置 - 编辑配置 - HTTPS 解密 - 安装证书
 * Shadowrocket：设置 - 证书 - 安装证书
@@ -191,7 +190,7 @@ macOS：
 ![Workflow_Q&A](https://raw.githubusercontent.com/lhie1/Surge/master/images/Workflow_Q&A.JPG)
 
 1. 网络连接失败，切换节点或者更换网络环境
-2. 证书效验失败，[检查证书](#mitm证书的安装及信任)
+2. 证书效验失败，[检查证书](#mitm)
 3. 获取文件出错，更新 [User Data](https://workflow.is/workflows/7dee8634229d4a48b81d96c8c912d87b)
 4. 脚本缺失，Get [Rule OTA](https://workflow.is/workflows/a70c1f75e37446cbb27d3045b7b57fe9)
 
