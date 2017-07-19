@@ -190,7 +190,7 @@ macOS：
 ![Workflow_Q&A](https://raw.githubusercontent.com/lhie1/Surge/master/images/Workflow_Q&A.JPG)
 
 1. 网络连接失败，切换节点或者更换网络环境
-2. 证书检查出错，[检查证书](#mitm证书的安装及信任)
+2. 证书效验失败，[检查证书](#mitm证书的安装及信任)
 3. 获取文件出错，更新 [User Data](https://workflow.is/workflows/7dee8634229d4a48b81d96c8c912d87b)
 4. 脚本缺失，Get [Rule OTA](https://workflow.is/workflows/a70c1f75e37446cbb27d3045b7b57fe9)
 
