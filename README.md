@@ -77,6 +77,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
     * 自定义添加[SSID Setting]规则
     * 自定义删除规则（All）
     * 生成证书
+    * [Widget 策略](#widget策略)
 * [Rule OTA](#rule-ota)
     * [Special_Proxy](#special_proxy)
         * [AuthKey](#authkey)
@@ -103,6 +104,10 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 [下载地址](https://workflow.is/workflows/a70c1f75e37446cbb27d3045b7b57fe9)
 
 ---
+
+#### Widget 策略
+
+![Widget](https://raw.githubusercontent.com/lhie1/Surge/master/images/Widget.JPG)
 
 #### Special_Proxy
 * ##### AuthKey
