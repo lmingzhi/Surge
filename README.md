@@ -102,7 +102,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 [下载地址](https://workflow.is/workflows/7dee8634229d4a48b81d96c8c912d87b)
 
 #### Rule OTA
-[下载地址](https://workflow.is/workflows/7f1c9a96c51648d990d34aafa2077ff6)
+[下载地址](https://workflow.is/workflows/fa5558f04f184bd8ab6e4259a55e80a7)
 
 ---
 
