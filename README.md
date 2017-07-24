@@ -5,7 +5,11 @@
 本项目最早是基于 [scomper/surge.conf](https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8) 定制修改而来，现已形成独有风格。
 
 ---
-* [可实现功能](#可实现功能)
+* [已支持应用](#application)
+	* Surge
+	* Shadowrocket
+	* Quantumult
+* [可实现功能](#function)
 * 导入方式
     * [URL_Lite](#url)
     * [Workflow](#workflow)
@@ -15,7 +19,7 @@
 * [证书的安装及信任](#mitm)
 * [Hosts（免服务器翻墙）](#hosts)
 * [Android SSR ACL](#android-ssr-acl)
-* [浏览器广告](#浏览器广告)
+* [浏览器广告](#browser-ad)
 * [联系方式](#line)
 * [Q&A](#qa)
 	* [☁️ Proxy & 🔰 Proxy & 🍎 Proxy](#%EF%B8%8F-proxy---proxy---proxy)
@@ -31,7 +35,17 @@
 
 ---
 
-### 可实现功能
+### Application
+
+Configuration | Source
+----|----
+Surge | [@lhie1](https://t.me/lhie1)
+Shadowrocket | [@lhie1](https://t.me/lhie1)
+Quantumult | [@未名](https://t.me/unknownTokyo)
+
+---
+
+### Function
 * 自动代理 / 全局代理
 * 解决本地 DNS 可能带来的干扰
 * 可突破部分内网限制（公司、学校）
@@ -241,7 +255,7 @@ https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/backcn-banAD.acl
 ````
 ---
 
-### 浏览器广告
+### Browser ad
 ````
 Adguard：https://adguard.com/en/welcome.html
 ````
@@ -515,6 +529,7 @@ ca-passphrase = password
 * [@Neurogram](http://www.taguage.com/user?id=181456)
 * @suisr9255
 * [@Hackl0us](https://github.com/Hackl0us)
+* [@unknownTokyo](https://t.me/unknownTokyo)
 
 ---
 
