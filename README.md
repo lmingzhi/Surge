@@ -90,6 +90,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
     * 自定义添加[Host]规则
     * 自定义添加[URL Rewrite]规则
     * 自定义添加[SSID Setting]规则
+    * 自定义添加 DNS
     * 自定义删除规则（All）
     * 生成证书
     * [Widget 策略](#widget-策略)
@@ -116,7 +117,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 [下载地址](https://workflow.is/workflows/5f54cecaa60548df9c7d9830d40357c3)
 
 #### Rule OTA
-[下载地址](https://workflow.is/workflows/fa5558f04f184bd8ab6e4259a55e80a7)
+[下载地址](https://workflow.is/workflows/e3644798c7f548319a1eca90992ec8be)
 
 ---
 
