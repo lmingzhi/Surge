@@ -113,7 +113,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
     * [常见问题](#workflow_qa)
 
 #### User Data
-[下载地址](https://workflow.is/workflows/7dee8634229d4a48b81d96c8c912d87b)
+[下载地址](https://workflow.is/workflows/5f54cecaa60548df9c7d9830d40357c3)
 
 #### Rule OTA
 [下载地址](https://workflow.is/workflows/fa5558f04f184bd8ab6e4259a55e80a7)
