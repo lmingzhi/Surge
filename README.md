@@ -77,7 +77,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 ````
 导入后请务必[安装证书](#mitm)
 
-![URL](https://raw.githubusercontent.com/lhie1/Surge/master/images/URL.jpeg)
+![](https://raw.githubusercontent.com/lhie1/Surge/master/images/URL.jpeg)
 
 ---
 
@@ -123,7 +123,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 #### Widget 策略
 
-![Widget](https://raw.githubusercontent.com/lhie1/Surge/master/images/Widget.JPG)
+![](https://raw.githubusercontent.com/lhie1/Surge/master/images/Widget.JPG)
 
 #### Special_Proxy
 * ##### AuthKey
@@ -196,13 +196,13 @@ iOS：
 
 macOS：
 
-![macOS_MitM](https://raw.githubusercontent.com/lhie1/Surge/master/images/macOS_MitM.jpg)
+![](https://raw.githubusercontent.com/lhie1/Surge/master/images/macOS_MitM.jpg)
 
 ---
 
 ### Workflow_Q&A
 
-![Workflow_Q&A](https://raw.githubusercontent.com/lhie1/Surge/master/images/Workflow_Q&A.JPG)
+![](https://raw.githubusercontent.com/lhie1/Surge/master/images/Workflow_Q&A.JPG)
 
 1. 网络连接失败，切换节点或者更换网络环境
 2. 证书效验失败，[检查证书](#mitm)
@@ -223,7 +223,7 @@ macOS：
 
 长时间的维护和分享离不开大家的鼓励与支持，如果帮助到您，可以考虑捐赠，谢谢。
 
-![Pay](https://raw.githubusercontent.com/lhie1/Surge/master/images/Pay.jpeg)
+![](https://raw.githubusercontent.com/lhie1/Surge/master/images/Pay.jpeg)
 
 ---
 
