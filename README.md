@@ -114,7 +114,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
     * [常见问题](#workflow_qa)
 
 #### User Data
-[下载地址](https://workflow.is/workflows/4c49ac83c450407aa790a2b56694195d)
+[下载地址](https://workflow.is/workflows/e8dbc5fc1da84c94b040f3dbe621d932)
 
 #### Rule OTA
 [下载地址](https://workflow.is/workflows/3149341326274b1d8fd0b583bc3af098)
@@ -175,6 +175,11 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 * ##### Youku
 ````
 开启此功能将会屏蔽优酷视频广告（有可能会使视频加载时间过长或加载失败）
+````
+
+* ##### JD/知乎/百度翻译
+````
+部分用户反映京东、知乎、百度翻译出错，关闭此功能将可解决
 ````
 
 ---
