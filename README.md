@@ -8,7 +8,7 @@
 * [已支持应用](#application)
 	* Surge
 	* Shadowrocket
-	* Quantumult
+	* [Quantumult](#https://raw.githubusercontent.com/lhie1/Surge/master/Quantumult.conf)
 * [可实现功能](#function)
 * 导入方式
     * [URL_Lite](#url)
