@@ -11,7 +11,7 @@
 	* [Quantumult](#https://raw.githubusercontent.com/lhie1/Surge/master/Quantumult.conf)
 * [可实现功能](#function)
 * 导入方式
-    * [URL_Lite](#url)
+    * [URL（精简版）](#url)
     * [Workflow](#workflow)
     	* User Data
     	* Rule OTA
