@@ -177,6 +177,10 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 开启此功能将会屏蔽优酷视频广告（出现任何问题请关闭此功能）
 ````
 
+* ##### IQIYI
+````
+开启此功能将会屏蔽爱奇艺视频广告（出现任何问题请关闭此功能）
+````
 ---
 
 ### MitM
