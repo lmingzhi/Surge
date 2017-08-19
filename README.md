@@ -169,17 +169,12 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 * ##### Emoji
 ````
-关闭此功能`[Proxy Group]`则不再使用`Emoji`表情
+关闭此功能则不再使用`Emoji`表情
 ````
 
 * ##### Youku
 ````
-开启此功能将会屏蔽优酷视频广告（有可能会使视频加载时间过长或加载失败）
-````
-
-* ##### JD/知乎/百度翻译
-````
-部分用户反映京东、知乎、百度翻译出错，关闭此功能将可解决
+开启此功能将会屏蔽优酷视频广告（出现任何问题请关闭此功能）
 ````
 
 ---
