@@ -175,6 +175,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 * ##### Youku
 ````
 开启此功能将会屏蔽优酷视频广告（出现任何问题请关闭此功能）
+最新版本（6.9.4）已和谐
 ````
 
 * ##### IQIYI
