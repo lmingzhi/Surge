@@ -1,0 +1,6 @@
+{{manual_reject}}
+
+{{ad}}
+FINAL,PROXY
+[Host]
+localhost = 127.0.0.1

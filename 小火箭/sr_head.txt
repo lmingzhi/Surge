@@ -1,0 +1,22 @@
+# Best Shadowrocket Rules (https://github.com/h2y/Shadowrocket-ADBlock-Rules)
+# by Moshel
+# build time: {{build_time}}
+
+[General]
+bypass-system = true
+skip-proxy = 127.0.0.1, localhost, *.local
+dns-server = 114.114.114.114
+
+[Rule]
+GEOIP,CN,包月深圳
+DOMAIN-SUFFIX,cdn.ampproject.org,PROXY,force-remote-dns
+DOMAIN,ip3791893.ahcdn.com,PROXY
+DOMAIN,cdn.qooqlevideo.com,PROXY
+DOMAIN-SUFFIX,apple.com,PROXY
+DOMAIN-SUFFIX,icloud.com,PROXY
+DOMAIN-SUFFIX,show.re.taobao.com,REJECT
+DOMAIN-SUFFIX,api.filepicker.io,PROXY
+DOMAIN-SUFFIX,airtable.com,PROXY
+DOMAIN-SUFFIX,t.cn,PROXY
+DOMAIN-SUFFIX,t.co,PROXY
+DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
