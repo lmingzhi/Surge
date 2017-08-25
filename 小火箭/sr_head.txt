@@ -4,7 +4,7 @@ skip-proxy = 127.0.0.1, localhost, *.local
 dns-server = 114.114.114.114
 
 [Rule]
-GEOIP,CN,包月深圳
+GEOIP,CN,包月北京
 DOMAIN-SUFFIX,cdn.ampproject.org,PROXY,force-remote-dns
 DOMAIN,ip3791893.ahcdn.com,PROXY
 DOMAIN,cdn.qooqlevideo.com,PROXY
