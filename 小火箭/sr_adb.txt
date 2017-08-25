@@ -1,4 +1,4 @@
-{{manual_reject}}
+
 
 {{ad}}
 FINAL,PROXY
