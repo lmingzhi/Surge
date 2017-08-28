@@ -4,10 +4,3 @@
 FINAL,PROXY
 [Host]
 localhost = 127.0.0.1
-
-[URL Rewrite]
-(.*?)googlevideo.com/(.*?)---(.*?)index _ 302
-
-[MITM]
-hostname = *.googlevideo.com
-enable = true
