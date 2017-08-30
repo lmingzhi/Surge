@@ -71,9 +71,9 @@ Quantumult | [@未名](https://t.me/unknownTokyo)
 
 用于`Surge/Shadowrcket_URL`导入方式，阉割了节点定制以及功能开关，其他部分大致相同
 ````
-Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge_Lite.conf
+Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge.conf
 
-Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket_Lite.conf
+Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket.conf
 ````
 导入后请务必[安装证书](#mitm)
 
