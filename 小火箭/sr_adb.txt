@@ -4,3 +4,6 @@
 FINAL,PROXY
 [Host]
 localhost = 127.0.0.1
+
+[URL Rewrite]
+http://m1.ad.10010.com/noticeMag/images/imageUpload/2017-08-29/1503978211014.jpg _ 302
