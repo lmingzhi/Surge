@@ -1,10 +1,10 @@
 [General]
 bypass-system = true
 skip-proxy = 127.0.0.1, localhost, *.local
-dns-server = 114.114.114.114
+dns-server = 223.5.5.5,223.6.6.6
 
 [Rule]
-GEOIP,CN,包月北京
+GEOIP,CN,包月浙江
 DOMAIN-SUFFIX,cdn.ampproject.org,PROXY,force-remote-dns
 DOMAIN,ip3791893.ahcdn.com,PROXY
 DOMAIN,cdn.qooqlevideo.com,PROXY
