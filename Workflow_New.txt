@@ -2,6 +2,6 @@ Surge
 Shadowrocket
 Quantumult
 
-优化：几乎重写 提高效率并修复一系列问题
+修复：IQIYI 开关失效
 
 微信公众号：墙洞说
