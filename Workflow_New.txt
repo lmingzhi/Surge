@@ -1,7 +1,3 @@
-Surge
-Shadowrocket
-Quantumult
-
-修复：IQIYI 开关失效
+Quantumult 已完美适配
 
 微信公众号：墙洞说
