@@ -1,4 +1,4 @@
-User Data - Delete 支持白名单模式
+支持白名单模式
 
 当在 User Data 的 Delete 模块内添加“baidu”时，释出的规则时会自动删除 (DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD),*baidu* 所有内容
 
