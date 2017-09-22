@@ -1,5 +1,14 @@
+本次更新：
+
+对 Quantumult 的支持更好了（顺便也简化了几个 Action）
+
+历史更新：
+
+增加开关：可以自己选择是否加载基于 证书 的规则
+
 支持白名单模式
 
 当在 User Data 的 Delete 模块内添加“baidu”时，释出的规则时会自动删除 (DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD),*baidu* 所有内容
+
 
 微信公众号：墙洞说
