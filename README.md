@@ -150,11 +150,6 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 关闭此功能将不再屏蔽广告
 ````
 
-* ##### TestFlinght
-````
-开启此功能会在有只支持`TestFlinght`版本的规则时加载新规则
-````
-
 * ##### IQIYI
 ````
 开启此功能将会屏蔽爱奇艺视频广告（出现任何问题请关闭此功能）
