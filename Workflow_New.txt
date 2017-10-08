@@ -1,6 +1,6 @@
 本次更新：
 
-对 Quantumult 的支持更好了（顺便也简化了几个 Action）
+新增：YOUKU 开关
 
 历史更新：
 
