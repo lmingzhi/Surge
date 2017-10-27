@@ -1,8 +1,10 @@
 本次更新：
 
-新增：YouTube_Proxy
+新增：MITM 开关（默认关闭），代替每次运行时的提示
 
 历史更新：
+
+新增：YouTube_Proxy
 
 新增：YOUKU 开关
 
