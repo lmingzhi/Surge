@@ -196,7 +196,7 @@ macOS：
 
 规则更新通知（新特性/教程/说明）：[http://t.me/RuleNews](http://t.me/RuleNews)
 
-购买翻墙服务：[https://爱兔联盟.com](https://爱兔联盟.com)（[了解详情](https://github.com/lhie1/tuClub/blob/master/README.md)）
+购买翻墙服务：[https://墙洞.com](https://墙洞.com)（[了解详情](https://github.com/lhie1/tuClub/blob/master/README.md)）
 
 长时间的维护和分享离不开大家的鼓励与支持，如果帮助到您，可以考虑捐赠，谢谢。
 
