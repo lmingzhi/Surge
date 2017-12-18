@@ -252,9 +252,11 @@ Adguard：https://adguard.com/en/welcome.html
 
 🍂 Domestic：管控国内的流量；🚀 Direct - 智能分流 (Pac)；🍃 Proxy - 全局代理
 
-🍎 Proxy： 管控苹果的流量；如果苹果某些服务直连困难，设其为代理，可能会改善一些问题：🍎 Only - 代理服务器
+☁️ Others：掌控规则名单外的非国内 IP 的流量
 
-建议 ： 🍃 Proxy - 代理服务器；🍂 Domestic - 🌍 Direct ；🍎 Only - 🚀 Direct/代理服务器
+🍎 Only： 管控苹果的流量；如果苹果某些服务直连困难，设其为代理，可能会改善一些问题：🍎 Only - 代理服务器
+
+建议 ： 🍃 Proxy - 代理服务器；🍂 Domestic - 🚀 Direct ；☁️ Others - 🚀 Direct；🍎 Only - 🚀 Direct / 代理服务器
 ````
 
 #### 🚀 [混淆模式](https://github.com/breakwa11/shadowsocks-rss/blob/master/ssr.md)
